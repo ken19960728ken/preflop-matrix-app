@@ -1,0 +1,15 @@
+{
+	"fixed": {
+		"file_version": "0.0.1"
+	},
+	"info": {
+		"0409": {
+			"ProductVersion": "0.0.1",
+			"CompanyName": "ken19960728ken",
+			"FileDescription": "Preflop range matrix report",
+			"LegalCopyright": "Copyright © 2026 ken19960728ken",
+			"ProductName": "PreflopMatrix",
+			"Comments": "Preflop range matrix report"
+		}
+	}
+}

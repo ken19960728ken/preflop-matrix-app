@@ -1,0 +1,39 @@
+# Wails / build
+.task
+bin/
+build/bin/
+build/linux/appimage/build
+build/windows/nsis/MicrosoftEdgeWebview2Setup.exe
+# Mobile generated (per-machine; overlays hold absolute paths)
+build/ios/xcode/overlay.json
+build/ios/xcode/gen/
+build/android/overlay.json
+build/android/gen/
+
+# Frontend（dist 由 wails3 build 產生；乾淨 clone 需先執行 `cd frontend && npm install && npm run build`，見 README）
+frontend/node_modules/
+frontend/dist/
+
+# 隱私：不得 commit 任何範圍檔、手牌或其輸出
+*.txt
+!testdata/parity/**/*.txt
+ranges/
+Ranges/
+hand_histories/
+*.html
+!internal/report/template.html
+!frontend/index.html
+*.json
+!internal/i18n/locales/**/*.json
+!testdata/parity/**/*.json
+!frontend/package.json
+!frontend/package-lock.json
+!frontend/tsconfig*.json
+!build/config.yml
+!build/windows/info.json
+!build/appicon.icon/icon.json
+
+# 其他
+*.db
+.env
+.DS_Store

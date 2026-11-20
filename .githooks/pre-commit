@@ -1,0 +1,8 @@
+#!/bin/sh
+# 隱私防護：只有 testdata/parity/ 底下的 .txt 可以被 commit（範圍檔、手牌不得進 repo）。
+bad=$(git diff --cached --name-only --diff-filter=ACMR | grep -E '\.txt$' | grep -v '^testdata/parity/')
+if [ -n "$bad" ]; then
+	echo "pre-commit: 拒絕 commit 以下 .txt（只允許 testdata/parity/ 底下）：" >&2
+	echo "$bad" >&2
+	exit 1
+fi
