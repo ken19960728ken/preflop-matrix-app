@@ -3,7 +3,6 @@ package main
 import (
 	"embed"
 	"os"
-	"strings"
 
 	"github.com/ken19960728ken/preflop-matrix-app/internal/cli"
 	"github.com/ken19960728ken/preflop-matrix-app/internal/gui"
@@ -12,17 +11,11 @@ import (
 //go:embed all:frontend/dist
 var assets embed.FS
 
-// macOS 從 Finder 啟動時可能附帶 -psn_ 開頭的參數，不算命令列參數。
-const finderArgPrefix = "-psn_"
-
+// GUI App 只在第一個參數是已知 CLI 旗標時走命令列；其餘（-psn_*、-AppleLanguages、-NS*、檔案關聯）一律開視窗。
+// 純 console 入口見 cmd/preflop-matrix。
 func main() {
-	var args []string
-	for _, a := range os.Args[1:] {
-		if !strings.HasPrefix(a, finderArgPrefix) {
-			args = append(args, a)
-		}
-	}
-	if len(args) > 0 {
+	args := os.Args[1:]
+	if cli.IsCLIArgs(args) {
 		os.Exit(cli.Run(args))
 	}
 	os.Exit(gui.Run(assets))

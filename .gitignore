@@ -2,30 +2,27 @@
 .task
 bin/
 build/bin/
-build/linux/appimage/build
 build/windows/nsis/MicrosoftEdgeWebview2Setup.exe
-# Mobile generated (per-machine; overlays hold absolute paths)
-build/ios/xcode/overlay.json
-build/ios/xcode/gen/
-build/android/overlay.json
-build/android/gen/
 
-# Frontend（dist 由 wails3 build 產生；乾淨 clone 需先執行 `cd frontend && npm install && npm run build`，見 README）
+# Frontend（dist 內容由建置產生；.gitkeep 讓乾淨 clone 的 go:embed 可編譯）
 frontend/node_modules/
-frontend/dist/
+frontend/dist/*
+!frontend/dist/.gitkeep
 
 # 隱私：不得 commit 任何範圍檔、手牌或其輸出
 *.txt
 !testdata/parity/**/*.txt
-ranges/
-Ranges/
-hand_histories/
+!internal/**/testdata/**/*.txt
+/ranges/
+/Ranges/
+/hand_histories/
 *.html
 !internal/report/template.html
 !frontend/index.html
 *.json
 !internal/i18n/locales/**/*.json
 !testdata/parity/**/*.json
+!internal/**/testdata/**/*.json
 !frontend/package.json
 !frontend/package-lock.json
 !frontend/tsconfig*.json
@@ -36,4 +33,9 @@ hand_histories/
 # 其他
 *.db
 .env
+.env.*
+*.syso
+*.log
+.vscode/
+.idea/
 .DS_Store

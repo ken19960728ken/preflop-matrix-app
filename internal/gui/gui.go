@@ -8,7 +8,9 @@ import (
 )
 
 const (
-	windowTitle     = "PreflopMatrix"
+	appName         = "PreflopMatrix"
+	appDescription  = "Preflop range matrix report"
+	windowTitle     = appName
 	windowWidth     = 1200
 	windowHeight    = 800
 	windowMinWidth  = 960
@@ -18,8 +20,8 @@ const (
 // Run 開啟空白主視窗並阻塞到應用程式結束，回傳 exit code。
 func Run(assets fs.FS) int {
 	app := application.New(application.Options{
-		Name:        "PreflopMatrix",
-		Description: "Preflop range matrix report",
+		Name:        appName,
+		Description: appDescription,
 		Assets: application.AssetOptions{
 			Handler: application.AssetFileServerFS(assets),
 		},

@@ -1,8 +1,11 @@
 #!/bin/sh
-# 隱私防護：只有 testdata/parity/ 底下的 .txt 可以被 commit（範圍檔、手牌不得進 repo）。
-bad=$(git diff --cached --name-only --diff-filter=ACMR | grep -E '\.txt$' | grep -v '^testdata/parity/')
+# 隱私防護：index 內任何符合 .gitignore 的檔案（含 git add -f 強加的範圍檔、手牌、報告、.env）一律拒絕。
+# 另外不分大小寫擋 .txt（在區分大小寫的檔案系統上 UPPER.TXT 不會命中 *.txt 規則），只放行 testdata/ 底下。
+bad=$(git ls-files -z --cached --ignored --exclude-standard | tr '\0' '\n')
+txt=$(git ls-files -z --cached | tr '\0' '\n' | grep -iE '\.txt$' | grep -vE '^(testdata/parity/|internal/.*/testdata/)')
+bad=$(printf '%s\n%s\n' "$bad" "$txt" | sed '/^$/d' | sort -u)
 if [ -n "$bad" ]; then
-	echo "pre-commit: 拒絕 commit 以下 .txt（只允許 testdata/parity/ 底下）：" >&2
+	echo "pre-commit: 拒絕 commit 以下檔案（符合 .gitignore 或不在 testdata 的 .txt）：" >&2
 	echo "$bad" >&2
 	exit 1
 fi
