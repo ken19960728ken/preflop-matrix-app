@@ -1,0 +1,42 @@
+理論範圍來源：參數 --ranges → testdata/parity/handcrafted/ranges
+手牌：掃描 25 個檔案，採用 1343 手；重複略過 6、非 6 人桌排除 4、無法解析略過 13、無法讀取的檔案 0
+  無法解析範例：unparseable.txt: unsupported game or bad header: 'stray line before first hand'
+  無法解析範例：unparseable.txt: unsupported game or bad header: 'Poker Hand #HU1: Omaha Pot Limit ($0.05/$0.1) - 2026/10/06 06:55:22'
+  無法解析範例：unparseable.txt: missing HOLE CARDS or SUMMARY section
+  無法解析範例：unparseable.txt: unrecognised preflop line: 'p_HJ: dances'
+  無法解析範例：unparseable.txt: player not seated: 'p_GHOST'
+理論範圍：138 個檔案，對應到節點 101 個；忽略（多人或不認得）8、重複 4、無法讀取 16、未填（空白檔）9
+  無法讀取：BTN vs BB 3bet call.txt: [Errno 21] Is a directory: 'testdata/parity/handcrafted/ranges/BTN vs BB 3bet call.txt'
+  無法讀取：HJ vs UTG open call.txt: bad card: 'Xx'
+  無法讀取：CO vs UTG open call.txt: bad combo: '\ufeffAsAh: 1'
+  無法讀取：CO vs UTG open call.txt: could not convert string to float: ' 1: 2'
+  無法讀取：HJ vs UTG open call.txt: duplicate combo: AhAs
+  無法讀取：CO vs UTG open call.txt: could not convert string to float: ' 0x10'
+  無法讀取：CO vs UTG open call.txt: bad weight: 'AsAh: inf'
+  無法讀取：CO vs UTG open call.txt: 'utf-8' codec can't decode byte 0xff in position 8: invalid start byte
+  無法讀取：CO vs UTG open call.txt: bad card: 'as'
+  無法讀取：HJ vs UTG open call.txt: bad weight: 'AsAh: nan'
+  無法讀取：HJ vs UTG open call.txt: bad weight: 'AsAh: -1'
+  無法讀取：CO vs UTG open call.txt: bad weight: 'AsAh: 1e400'
+  無法讀取：HJ vs UTG open call.txt: the same card twice: AsAs
+  無法讀取：HJ vs UTG open call.txt: bad combo: 'AsA: 1'
+  無法讀取：CO vs UTG open call.txt: bad card: 'AH'
+  無法讀取：CO vs UTG open call.txt: bad combo: '\u200bAsAh: 1'
+  未填（空白檔）：BTN vs UTG open call.txt
+  未填（空白檔）：BTN vs UTG open call.txt
+  未填（空白檔）：BTN vs UTG open call.txt
+  未填（空白檔）：BTN vs UTG open call.txt
+  未填（空白檔）：BTN vs UTG open call.txt
+  未填（空白檔）：BTN vs UTG open call.txt
+  未填（空白檔）：BTN vs UTG open call.txt
+  未填（空白檔）：BTN vs UTG open 3bet.txt
+  未填（空白檔）：BTN vs UTG open 3bet.txt
+  理論範圍不完整：vs_open CO>BB 缺 3bet，已當 0
+  理論範圍不完整：vs_open BTN>BB 缺 call，已當 0
+  理論範圍不完整：vs_3bet BTN>SB 缺 call，已當 0
+  理論範圍不完整：vs_4bet HJ>BB 缺 call，已當 0
+  重複的節點檔（只用第一個）：BTN vs UTG open 3bet.txt
+  重複的節點檔（只用第一個）：HJ vs SB 3bet 4bet all in.txt
+  重複的節點檔（只用第一個）：SB vs UTG open call.txt
+  重複的節點檔（只用第一個）：SB vs UTG open call.txt
+已輸出：/dev/null、testdata/parity/handcrafted/golden.json

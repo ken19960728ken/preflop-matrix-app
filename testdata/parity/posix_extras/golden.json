@@ -1,0 +1,558 @@
+{
+ "open": {
+  "UTG": {
+   "th": null,
+   "me": null,
+   "pool": {
+    "r": 0.0,
+    "n": 54
+   }
+  },
+  "HJ": {
+   "th": {
+    "r": 0.3362520180995475
+   },
+   "me": {
+    "r": 1.0,
+    "n": 9
+   },
+   "pool": {
+    "r": 0.4,
+    "n": 45
+   }
+  },
+  "CO": {
+   "th": null,
+   "me": null,
+   "pool": {
+    "r": 0.0,
+    "n": 27
+   }
+  },
+  "BTN": {
+   "th": {
+    "r": 0.41730771493212676
+   },
+   "me": null,
+   "pool": {
+    "r": 0.0,
+    "n": 27
+   }
+  },
+  "SB": {
+   "th": null,
+   "me": {
+    "r": 1.0,
+    "n": 9
+   },
+   "pool": {
+    "r": 1.0,
+    "n": 18
+   }
+  }
+ },
+ "vs_open": {
+  "UTG>HJ": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "UTG>CO": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "UTG>BTN": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "UTG>SB": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "UTG>BB": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "HJ>CO": {
+   "th": null,
+   "me": null,
+   "pool": {
+    "c": 0.0,
+    "r": 0.0,
+    "n": 27
+   }
+  },
+  "HJ>BTN": {
+   "th": null,
+   "me": {
+    "c": 0.1111111111111111,
+    "r": 0.7777777777777778,
+    "n": 9
+   },
+   "pool": {
+    "c": 0.1111111111111111,
+    "r": 0.7777777777777778,
+    "n": 18
+   }
+  },
+  "HJ>SB": {
+   "th": null,
+   "me": null,
+   "pool": {
+    "c": 0.0,
+    "r": 0.0,
+    "n": 3
+   }
+  },
+  "HJ>BB": {
+   "th": null,
+   "me": null,
+   "pool": {
+    "c": 0.0,
+    "r": 0.0,
+    "n": 3
+   }
+  },
+  "CO>BTN": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "CO>SB": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "CO>BB": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "BTN>SB": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "BTN>BB": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "SB>BB": {
+   "th": {
+    "c": 0.736707277246043,
+    "r": 0.263292722753957
+   },
+   "me": {
+    "c": 0.1111111111111111,
+    "r": 0.7777777777777778,
+    "n": 9
+   },
+   "pool": {
+    "c": 0.1111111111111111,
+    "r": 0.7777777777777778,
+    "n": 18
+   }
+  }
+ },
+ "vs_3bet": {
+  "UTG>HJ": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "UTG>CO": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "UTG>BTN": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "UTG>SB": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "UTG>BB": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "HJ>CO": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "HJ>BTN": {
+   "th": {
+    "c": 0.3625016175111923,
+    "r": 0.31426871664096234
+   },
+   "me": {
+    "c": 0.16666666666666666,
+    "r": 0.6666666666666666,
+    "n": 6
+   },
+   "pool": {
+    "c": 0.16666666666666666,
+    "r": 0.6666666666666666,
+    "n": 12
+   }
+  },
+  "HJ>SB": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "HJ>BB": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "CO>BTN": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "CO>SB": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "CO>BB": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "BTN>SB": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "BTN>BB": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "SB>BB": {
+   "th": null,
+   "me": {
+    "c": 0.16666666666666666,
+    "r": 0.6666666666666666,
+    "n": 6
+   },
+   "pool": {
+    "c": 0.16666666666666666,
+    "r": 0.6666666666666666,
+    "n": 12
+   }
+  }
+ },
+ "vs_4bet": {
+  "UTG>HJ": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "UTG>CO": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "UTG>BTN": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "UTG>SB": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "UTG>BB": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "HJ>CO": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "HJ>BTN": {
+   "th": null,
+   "me": {
+    "c": 0.3333333333333333,
+    "r": 0.3333333333333333,
+    "n": 3
+   },
+   "pool": {
+    "c": 0.3333333333333333,
+    "r": 0.3333333333333333,
+    "n": 6
+   }
+  },
+  "HJ>SB": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "HJ>BB": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "CO>BTN": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "CO>SB": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "CO>BB": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "BTN>SB": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "BTN>BB": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "SB>BB": {
+   "th": null,
+   "me": {
+    "c": 0.3333333333333333,
+    "r": 0.3333333333333333,
+    "n": 3
+   },
+   "pool": {
+    "c": 0.3333333333333333,
+    "r": 0.3333333333333333,
+    "n": 6
+   }
+  }
+ },
+ "vs_5bet": {
+  "UTG>HJ": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "UTG>CO": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "UTG>BTN": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "UTG>SB": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "UTG>BB": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "HJ>CO": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "HJ>BTN": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "HJ>SB": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "HJ>BB": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "CO>BTN": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "CO>SB": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "CO>BB": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "BTN>SB": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "BTN>BB": {
+   "th": null,
+   "me": null,
+   "pool": null
+  },
+  "SB>BB": {
+   "th": null,
+   "me": null,
+   "pool": null
+  }
+ },
+ "absolute": {
+  "vs_3bet": {
+   "UTG>HJ": {},
+   "UTG>CO": {},
+   "UTG>BTN": {},
+   "UTG>SB": {},
+   "UTG>BB": {},
+   "HJ>CO": {},
+   "HJ>BTN": {
+    "th": {
+     "reach": 0.3362520180995475,
+     "f": 0.10868662745098037,
+     "c": 0.12189190045248868,
+     "r": 0.10567349019607844,
+     "n": null
+    },
+    "me": {
+     "reach": 1.0,
+     "f": 0.16666666666666674,
+     "c": 0.16666666666666666,
+     "r": 0.6666666666666666,
+     "n": 6
+    },
+    "pool": {
+     "reach": 0.4,
+     "f": 0.0666666666666667,
+     "c": 0.06666666666666667,
+     "r": 0.26666666666666666,
+     "n": 12
+    }
+   },
+   "HJ>SB": {},
+   "HJ>BB": {},
+   "CO>BTN": {},
+   "CO>SB": {},
+   "CO>BB": {},
+   "BTN>SB": {},
+   "BTN>BB": {},
+   "SB>BB": {
+    "me": {
+     "reach": 1.0,
+     "f": 0.16666666666666674,
+     "c": 0.16666666666666666,
+     "r": 0.6666666666666666,
+     "n": 6
+    },
+    "pool": {
+     "reach": 1.0,
+     "f": 0.16666666666666674,
+     "c": 0.16666666666666666,
+     "r": 0.6666666666666666,
+     "n": 12
+    }
+   }
+  },
+  "vs_4bet": {
+   "UTG>HJ": {},
+   "UTG>CO": {},
+   "UTG>BTN": {},
+   "UTG>SB": {},
+   "UTG>BB": {},
+   "HJ>CO": {},
+   "HJ>BTN": {
+    "me": {
+     "reach": 0.7777777777777778,
+     "f": 0.25925925925925936,
+     "c": 0.25925925925925924,
+     "r": 0.25925925925925924,
+     "n": 3
+    },
+    "pool": {
+     "reach": 0.7777777777777778,
+     "f": 0.25925925925925936,
+     "c": 0.25925925925925924,
+     "r": 0.25925925925925924,
+     "n": 6
+    }
+   },
+   "HJ>SB": {},
+   "HJ>BB": {},
+   "CO>BTN": {},
+   "CO>SB": {},
+   "CO>BB": {},
+   "BTN>SB": {},
+   "BTN>BB": {},
+   "SB>BB": {
+    "me": {
+     "reach": 0.7777777777777778,
+     "f": 0.25925925925925936,
+     "c": 0.25925925925925924,
+     "r": 0.25925925925925924,
+     "n": 3
+    },
+    "pool": {
+     "reach": 0.7777777777777778,
+     "f": 0.25925925925925936,
+     "c": 0.25925925925925924,
+     "r": 0.25925925925925924,
+     "n": 6
+    }
+   }
+  },
+  "vs_5bet": {
+   "UTG>HJ": {},
+   "UTG>CO": {},
+   "UTG>BTN": {},
+   "UTG>SB": {},
+   "UTG>BB": {},
+   "HJ>CO": {},
+   "HJ>BTN": {},
+   "HJ>SB": {},
+   "HJ>BB": {},
+   "CO>BTN": {},
+   "CO>SB": {},
+   "CO>BB": {},
+   "BTN>SB": {},
+   "BTN>BB": {},
+   "SB>BB": {}
+  }
+ },
+ "meta": {
+  "hands": 54,
+  "hero": "Hero",
+  "hero_hands": 36,
+  "warnings": [
+   "vs_open SB>BB 理論的跟注 + 加注 = 1.3574 超過 1，已按比例縮到 1"
+  ],
+  "date_from": "2026-10-01",
+  "date_to": "2026-10-09"
+ }
+}

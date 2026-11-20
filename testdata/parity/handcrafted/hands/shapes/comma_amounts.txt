@@ -1,0 +1,84 @@
+Poker Hand #HK0: Hold'em No Limit ($500.00/$1,000) - 2026/10/06 06:55:22
+Table 'RushAndCash1' 6-max Seat #1 is the button
+Seat 1: p_BTN ($10,000.50 in chips)
+Seat 2: p_SB ($10,000.50 in chips)
+Seat 3: Hero ($10,000.50 in chips)
+Seat 4: p_UTG ($10,000.50 in chips)
+Seat 5: p_HJ ($10,000.50 in chips)
+Seat 6: p_CO ($10,000.50 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to Hero 
+Dealt to p_UTG 
+Dealt to p_HJ 
+Dealt to p_CO 
+p_UTG: raises $2,500.00 to $2,500.00
+p_HJ: folds
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: raises $9,000.00 to $9,000.00
+p_UTG: raises $22,000.00 to $22,000.00
+Hero: calls $0.20
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #HK1: Hold'em No Limit ($500.00/$1,000) - 2026/10/06 06:55:22
+Table 'RushAndCash1' 6-max Seat #1 is the button
+Seat 1: p_BTN ($10,000.50 in chips)
+Seat 2: p_SB ($10,000.50 in chips)
+Seat 3: p_BB ($10,000.50 in chips)
+Seat 4: Hero ($10,000.50 in chips)
+Seat 5: p_HJ ($10,000.50 in chips)
+Seat 6: p_CO ($10,000.50 in chips)
+p_SB: posts small blind $0.05
+p_BB: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to p_BB 
+Dealt to Hero 
+Dealt to p_HJ 
+Dealt to p_CO 
+Hero: raises $2,500.00 to $2,500.00
+p_HJ: folds
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+p_BB: raises $9,000.00 to $9,000.00
+Hero: raises $22,000.00 to $22,000.00
+p_BB: raises $12,000,000.00 to $12,000,000.00 and is all-in
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #HK2: Hold'em No Limit ($500.00/$1,000) - 2026/10/06 06:55:22
+Table 'RushAndCash1' 6-max Seat #1 is the button
+Seat 1: p_BTN ($10,000.50 in chips)
+Seat 2: p_SB ($10,000.50 in chips)
+Seat 3: p_BB ($10,000.50 in chips)
+Seat 4: p_UTG ($10,000.50 in chips)
+Seat 5: p_HJ ($10,000.50 in chips)
+Seat 6: p_CO ($10,000.50 in chips)
+p_SB: posts small blind $0.05
+p_BB: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to p_BB 
+Dealt to p_UTG 
+Dealt to p_HJ 
+Dealt to p_CO 
+p_UTG: raises $2,500.00 to $2,500.00
+p_HJ: folds
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+p_BB: raises $9,000.00 to $9,000.00
+p_UTG: raises $22,000.00 to $22,000.00
+p_BB: raises $12,000,000.00 to $12,000,000.00 and is all-in
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
