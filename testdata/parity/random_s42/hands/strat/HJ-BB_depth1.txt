@@ -1,0 +1,1664 @@
+Poker Hand #RS1000005048: Hold'em No Limit ($0.05/$0.1) - 2026/09/09 06:55:22
+Table 'RushAndCash1' 6-max Seat #6 is the button
+Seat 1: p_SB ($10 in chips)
+Seat 2: Hero ($10 in chips)
+Seat 3: p_UTG ($10 in chips)
+Seat 4: p_HJ ($10 in chips)
+Seat 5: p_CO ($10 in chips)
+Seat 6: p_BTN ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_SB 
+Dealt to Hero 
+Dealt to p_UTG 
+Dealt to p_HJ 
+Dealt to p_CO 
+Dealt to p_BTN 
+p_UTG: folds
+p_HJ: raises $0.25 to $0.25
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: folds
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005049: Hold'em No Limit ($0.05/$0.1) - 2026/09/21 06:55:22
+Table 'RushAndCash1' 6-max Seat #4 is the button
+Seat 1: p_UTG ($10 in chips)
+Seat 2: Hero ($10 in chips)
+Seat 3: p_CO ($10 in chips)
+Seat 4: p_BTN ($10 in chips)
+Seat 5: p_SB ($10 in chips)
+Seat 6: p_BB ($10 in chips)
+p_SB: posts small blind $0.05
+p_BB: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_UTG 
+Dealt to Hero 
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to p_BB 
+p_UTG: folds
+Hero: raises $0.20 to $0.20
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+p_BB: calls $0.20
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005050: Hold'em No Limit ($0.05/$0.1) - 2026/09/23 06:55:22
+Table 'RushAndCash1' 6-max Seat #2 is the button
+Seat 1: p_CO ($10 in chips)
+Seat 2: p_BTN ($10 in chips)
+Seat 3: p_SB ($10 in chips)
+Seat 4: Hero ($10 in chips)
+Seat 5: p_UTG ($10 in chips)
+Seat 6: p_HJ ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to Hero 
+Dealt to p_UTG 
+Dealt to p_HJ 
+p_UTG: folds
+p_HJ: raises $0.25 to $0.25
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: folds
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005051: Hold'em No Limit ($0.05/$0.1) - 2026/09/04 06:55:22
+Table 'RushAndCash1' 6-max Seat #3 is the button
+Seat 1: p_HJ ($10 in chips)
+Seat 2: p_CO ($10 in chips)
+Seat 3: p_BTN ($10 in chips)
+Seat 4: p_SB ($10 in chips)
+Seat 5: p_BB ($10 in chips)
+Seat 6: p_UTG ($10 in chips)
+p_SB: posts small blind $0.05
+p_BB: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_HJ 
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to p_BB 
+Dealt to p_UTG 
+p_UTG: folds
+p_HJ: raises $0.20 to $0.20
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+p_BB: raises $0.70 to $0.70
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005052: Hold'em No Limit ($0.05/$0.1) - 2026/09/05 06:55:22
+Table 'RushAndCash1' 6-max Seat #3 is the button
+Seat 1: p_HJ ($10 in chips)
+Seat 2: p_CO ($10 in chips)
+Seat 3: p_BTN ($10 in chips)
+Seat 4: p_SB ($10 in chips)
+Seat 5: Hero ($10 in chips)
+Seat 6: p_UTG ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_HJ 
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to Hero 
+Dealt to p_UTG 
+p_UTG: folds
+p_HJ: raises $0.30 to $0.30
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: calls $0.20
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005053: Hold'em No Limit ($0.05/$0.1) - 2026/09/02 06:55:22
+Table 'RushAndCash1' 6-max Seat #5 is the button
+Seat 1: p_BB ($10 in chips)
+Seat 2: p_UTG ($10 in chips)
+Seat 3: Hero ($10 in chips)
+Seat 4: p_CO ($10 in chips)
+Seat 5: p_BTN ($10 in chips)
+Seat 6: p_SB ($10 in chips)
+p_SB: posts small blind $0.05
+p_BB: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_BB 
+Dealt to p_UTG 
+Dealt to Hero 
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+p_UTG: folds
+Hero: raises $0.25 to $0.25
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+p_BB: raises $1.05 to $1.05
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005054: Hold'em No Limit ($0.05/$0.1) - 2026/09/03 06:55:22
+Table 'RushAndCash1' 6-max Seat #4 is the button
+Seat 1: p_UTG ($10 in chips)
+Seat 2: p_HJ ($10 in chips)
+Seat 3: p_CO ($10 in chips)
+Seat 4: p_BTN ($10 in chips)
+Seat 5: p_SB ($10 in chips)
+Seat 6: Hero ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_UTG 
+Dealt to p_HJ 
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to Hero 
+p_UTG: folds
+p_HJ: raises $0.30 to $0.30
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: folds
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005055: Hold'em No Limit ($0.05/$0.1) - 2026/09/23 06:55:22
+Table 'RushAndCash1' 6-max Seat #4 is the button
+Seat 1: p_UTG ($10 in chips)
+Seat 2: Hero ($10 in chips)
+Seat 3: p_CO ($10 in chips)
+Seat 4: p_BTN ($10 in chips)
+Seat 5: p_SB ($10 in chips)
+Seat 6: p_BB ($10 in chips)
+p_SB: posts small blind $0.05
+p_BB: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_UTG 
+Dealt to Hero 
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to p_BB 
+p_UTG: folds
+Hero: raises $0.25 to $0.25
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+p_BB: calls $0.20
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005056: Hold'em No Limit ($0.05/$0.1) - 2026/09/04 06:55:22
+Table 'RushAndCash1' 6-max Seat #6 is the button
+Seat 1: p_SB ($10 in chips)
+Seat 2: Hero ($10 in chips)
+Seat 3: p_UTG ($10 in chips)
+Seat 4: p_HJ ($10 in chips)
+Seat 5: p_CO ($10 in chips)
+Seat 6: p_BTN ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_SB 
+Dealt to Hero 
+Dealt to p_UTG 
+Dealt to p_HJ 
+Dealt to p_CO 
+Dealt to p_BTN 
+p_UTG: folds
+p_HJ: raises $0.25 to $0.25
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: folds
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005057: Hold'em No Limit ($0.05/$0.1) - 2026/09/01 06:55:22
+Table 'RushAndCash1' 6-max Seat #5 is the button
+Seat 1: p_BB ($10 in chips)
+Seat 2: p_UTG ($10 in chips)
+Seat 3: Hero ($10 in chips)
+Seat 4: p_CO ($10 in chips)
+Seat 5: p_BTN ($10 in chips)
+Seat 6: p_SB ($10 in chips)
+p_SB: posts small blind $0.05
+p_BB: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_BB 
+Dealt to p_UTG 
+Dealt to Hero 
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+p_UTG: folds
+Hero: raises $0.30 to $0.30
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+p_BB: raises $1.30 to $1.30
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005058: Hold'em No Limit ($0.05/$0.1) - 2026/09/12 06:55:22
+Table 'RushAndCash1' 6-max Seat #3 is the button
+Seat 1: p_HJ ($10 in chips)
+Seat 2: p_CO ($10 in chips)
+Seat 3: p_BTN ($10 in chips)
+Seat 4: p_SB ($10 in chips)
+Seat 5: Hero ($10 in chips)
+Seat 6: p_UTG ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_HJ 
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to Hero 
+Dealt to p_UTG 
+p_UTG: folds
+p_HJ: raises $0.30 to $0.30
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: raises $1.10 to $1.10
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005059: Hold'em No Limit ($0.05/$0.1) - 2026/09/25 06:55:22
+Table 'RushAndCash1' 6-max Seat #5 is the button
+Seat 1: p_BB ($10 in chips)
+Seat 2: p_UTG ($10 in chips)
+Seat 3: p_HJ ($10 in chips)
+Seat 4: p_CO ($10 in chips)
+Seat 5: p_BTN ($10 in chips)
+Seat 6: Hero ($10 in chips)
+Hero: posts small blind $0.05
+p_BB: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_BB 
+Dealt to p_UTG 
+Dealt to p_HJ 
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to Hero 
+p_UTG: folds
+p_HJ: raises $0.20 to $0.20
+p_CO: folds
+p_BTN: folds
+Hero: folds
+p_BB: raises $0.65 to $0.65
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005060: Hold'em No Limit ($0.05/$0.1) - 2026/09/04 06:55:22
+Table 'RushAndCash1' 6-max Seat #2 is the button
+Seat 1: p_CO ($10 in chips)
+Seat 2: p_BTN ($10 in chips)
+Seat 3: p_SB ($10 in chips)
+Seat 4: Hero ($10 in chips)
+Seat 5: p_UTG ($10 in chips)
+Seat 6: p_HJ ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to Hero 
+Dealt to p_UTG 
+Dealt to p_HJ 
+p_UTG: folds
+p_HJ: raises $0.30 to $0.30
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: calls $0.20
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005061: Hold'em No Limit ($0.05/$0.1) - 2026/09/11 06:55:22
+Table 'RushAndCash1' 6-max Seat #2 is the button
+Seat 1: p_CO ($10 in chips)
+Seat 2: p_BTN ($10 in chips)
+Seat 3: p_SB ($10 in chips)
+Seat 4: p_BB ($10 in chips)
+Seat 5: p_UTG ($10 in chips)
+Seat 6: p_HJ ($10 in chips)
+p_SB: posts small blind $0.05
+p_BB: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to p_BB 
+Dealt to p_UTG 
+Dealt to p_HJ 
+p_UTG: folds
+p_HJ: raises $0.20 to $0.20
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+p_BB: calls $0.20
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005062: Hold'em No Limit ($0.05/$0.1) - 2026/09/05 06:55:22
+Table 'RushAndCash1' 6-max Seat #2 is the button
+Seat 1: p_CO ($10 in chips)
+Seat 2: p_BTN ($10 in chips)
+Seat 3: p_SB ($10 in chips)
+Seat 4: Hero ($10 in chips)
+Seat 5: p_UTG ($10 in chips)
+Seat 6: p_HJ ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to Hero 
+Dealt to p_UTG 
+Dealt to p_HJ 
+p_UTG: folds
+p_HJ: raises $0.25 to $0.25
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: calls $0.20
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005063: Hold'em No Limit ($0.05/$0.1) - 2026/09/04 06:55:22
+Table 'RushAndCash1' 6-max Seat #2 is the button
+Seat 1: p_CO ($10 in chips)
+Seat 2: p_BTN ($10 in chips)
+Seat 3: p_SB ($10 in chips)
+Seat 4: p_BB ($10 in chips)
+Seat 5: p_UTG ($10 in chips)
+Seat 6: Hero ($10 in chips)
+p_SB: posts small blind $0.05
+p_BB: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to p_BB 
+Dealt to p_UTG 
+Dealt to Hero 
+p_UTG: folds
+Hero: raises $0.25 to $0.25
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+p_BB: calls $0.20
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005064: Hold'em No Limit ($0.05/$0.1) - 2026/09/24 06:55:22
+Table 'RushAndCash1' 6-max Seat #2 is the button
+Seat 1: p_CO ($10 in chips)
+Seat 2: p_BTN ($10 in chips)
+Seat 3: p_SB ($10 in chips)
+Seat 4: Hero ($10 in chips)
+Seat 5: p_UTG ($10 in chips)
+Seat 6: p_HJ ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to Hero 
+Dealt to p_UTG 
+Dealt to p_HJ 
+p_UTG: folds
+p_HJ: raises $0.20 to $0.20
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: folds
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005065: Hold'em No Limit ($0.05/$0.1) - 2026/09/16 06:55:22
+Table 'RushAndCash1' 6-max Seat #6 is the button
+Seat 1: p_SB ($10 in chips)
+Seat 2: p_BB ($10 in chips)
+Seat 3: p_UTG ($10 in chips)
+Seat 4: Hero ($10 in chips)
+Seat 5: p_CO ($10 in chips)
+Seat 6: p_BTN ($10 in chips)
+p_SB: posts small blind $0.05
+p_BB: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_SB 
+Dealt to p_BB 
+Dealt to p_UTG 
+Dealt to Hero 
+Dealt to p_CO 
+Dealt to p_BTN 
+p_UTG: folds
+Hero: raises $0.30 to $0.30
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+p_BB: folds
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005066: Hold'em No Limit ($0.05/$0.1) - 2026/09/12 06:55:22
+Table 'RushAndCash1' 6-max Seat #3 is the button
+Seat 1: p_HJ ($10 in chips)
+Seat 2: p_CO ($10 in chips)
+Seat 3: p_BTN ($10 in chips)
+Seat 4: p_SB ($10 in chips)
+Seat 5: Hero ($10 in chips)
+Seat 6: p_UTG ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_HJ 
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to Hero 
+Dealt to p_UTG 
+p_UTG: folds
+p_HJ: raises $0.25 to $0.25
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: folds
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005067: Hold'em No Limit ($0.05/$0.1) - 2026/09/16 06:55:22
+Table 'RushAndCash1' 6-max Seat #3 is the button
+Seat 1: Hero ($10 in chips)
+Seat 2: p_CO ($10 in chips)
+Seat 3: p_BTN ($10 in chips)
+Seat 4: p_SB ($10 in chips)
+Seat 5: p_BB ($10 in chips)
+Seat 6: p_UTG ($10 in chips)
+p_SB: posts small blind $0.05
+p_BB: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to Hero 
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to p_BB 
+Dealt to p_UTG 
+p_UTG: folds
+Hero: raises $0.30 to $0.30
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+p_BB: raises $0.95 to $0.95
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005068: Hold'em No Limit ($0.05/$0.1) - 2026/09/06 06:55:22
+Table 'RushAndCash1' 6-max Seat #5 is the button
+Seat 1: Hero ($10 in chips)
+Seat 2: p_UTG ($10 in chips)
+Seat 3: p_HJ ($10 in chips)
+Seat 4: p_CO ($10 in chips)
+Seat 5: p_BTN ($10 in chips)
+Seat 6: p_SB ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to Hero 
+Dealt to p_UTG 
+Dealt to p_HJ 
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+p_UTG: folds
+p_HJ: raises $0.25 to $0.25
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: calls $0.20
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005069: Hold'em No Limit ($0.05/$0.1) - 2026/09/11 06:55:22
+Table 'RushAndCash1' 6-max Seat #2 is the button
+Seat 1: p_CO ($10 in chips)
+Seat 2: p_BTN ($10 in chips)
+Seat 3: p_SB ($10 in chips)
+Seat 4: p_BB ($10 in chips)
+Seat 5: p_UTG ($10 in chips)
+Seat 6: p_HJ ($10 in chips)
+p_SB: posts small blind $0.05
+p_BB: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to p_BB 
+Dealt to p_UTG 
+Dealt to p_HJ 
+p_UTG: folds
+p_HJ: raises $0.30 to $0.30
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+p_BB: folds
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005070: Hold'em No Limit ($0.05/$0.1) - 2026/09/29 06:55:22
+Table 'RushAndCash1' 6-max Seat #6 is the button
+Seat 1: p_SB ($10 in chips)
+Seat 2: Hero ($10 in chips)
+Seat 3: p_UTG ($10 in chips)
+Seat 4: p_HJ ($10 in chips)
+Seat 5: p_CO ($10 in chips)
+Seat 6: p_BTN ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_SB 
+Dealt to Hero 
+Dealt to p_UTG 
+Dealt to p_HJ 
+Dealt to p_CO 
+Dealt to p_BTN 
+p_UTG: folds
+p_HJ: raises $0.30 to $0.30
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: folds
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005071: Hold'em No Limit ($0.05/$0.1) - 2026/09/24 06:55:22
+Table 'RushAndCash1' 6-max Seat #5 is the button
+Seat 1: p_BB ($10 in chips)
+Seat 2: p_UTG ($10 in chips)
+Seat 3: Hero ($10 in chips)
+Seat 4: p_CO ($10 in chips)
+Seat 5: p_BTN ($10 in chips)
+Seat 6: p_SB ($10 in chips)
+p_SB: posts small blind $0.05
+p_BB: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_BB 
+Dealt to p_UTG 
+Dealt to Hero 
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+p_UTG: folds
+Hero: raises $0.25 to $0.25
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+p_BB: folds
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005072: Hold'em No Limit ($0.05/$0.1) - 2026/09/15 06:55:22
+Table 'RushAndCash1' 6-max Seat #1 is the button
+Seat 1: p_BTN ($10 in chips)
+Seat 2: p_SB ($10 in chips)
+Seat 3: Hero ($10 in chips)
+Seat 4: p_UTG ($10 in chips)
+Seat 5: p_HJ ($10 in chips)
+Seat 6: p_CO ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to Hero 
+Dealt to p_UTG 
+Dealt to p_HJ 
+Dealt to p_CO 
+p_UTG: folds
+p_HJ: raises $0.30 to $0.30
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: raises $1.15 to $1.15
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005073: Hold'em No Limit ($0.05/$0.1) - 2026/09/21 06:55:22
+Table 'RushAndCash1' 6-max Seat #4 is the button
+Seat 1: p_UTG ($10 in chips)
+Seat 2: p_HJ ($10 in chips)
+Seat 3: p_CO ($10 in chips)
+Seat 4: p_BTN ($10 in chips)
+Seat 5: p_SB ($10 in chips)
+Seat 6: p_BB ($10 in chips)
+p_SB: posts small blind $0.05
+p_BB: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_UTG 
+Dealt to p_HJ 
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to p_BB 
+p_UTG: folds
+p_HJ: raises $0.20 to $0.20
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+p_BB: folds
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005074: Hold'em No Limit ($0.05/$0.1) - 2026/09/22 06:55:22
+Table 'RushAndCash1' 6-max Seat #2 is the button
+Seat 1: p_CO ($10 in chips)
+Seat 2: p_BTN ($10 in chips)
+Seat 3: p_SB ($10 in chips)
+Seat 4: Hero ($10 in chips)
+Seat 5: p_UTG ($10 in chips)
+Seat 6: p_HJ ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to Hero 
+Dealt to p_UTG 
+Dealt to p_HJ 
+p_UTG: folds
+p_HJ: raises $0.25 to $0.25
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: calls $0.20
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005075: Hold'em No Limit ($0.05/$0.1) - 2026/09/10 06:55:22
+Table 'RushAndCash1' 6-max Seat #5 is the button
+Seat 1: Hero ($10 in chips)
+Seat 2: p_UTG ($10 in chips)
+Seat 3: p_HJ ($10 in chips)
+Seat 4: p_CO ($10 in chips)
+Seat 5: p_BTN ($10 in chips)
+Seat 6: p_SB ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to Hero 
+Dealt to p_UTG 
+Dealt to p_HJ 
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+p_UTG: folds
+p_HJ: raises $0.30 to $0.30
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: folds
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005076: Hold'em No Limit ($0.05/$0.1) - 2026/09/25 06:55:22
+Table 'RushAndCash1' 6-max Seat #6 is the button
+Seat 1: p_SB ($10 in chips)
+Seat 2: Hero ($10 in chips)
+Seat 3: p_UTG ($10 in chips)
+Seat 4: p_HJ ($10 in chips)
+Seat 5: p_CO ($10 in chips)
+Seat 6: p_BTN ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_SB 
+Dealt to Hero 
+Dealt to p_UTG 
+Dealt to p_HJ 
+Dealt to p_CO 
+Dealt to p_BTN 
+p_UTG: folds
+p_HJ: raises $0.20 to $0.20
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: calls $0.20
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005077: Hold'em No Limit ($0.05/$0.1) - 2026/09/10 06:55:22
+Table 'RushAndCash1' 6-max Seat #4 is the button
+Seat 1: p_UTG ($10 in chips)
+Seat 2: Hero ($10 in chips)
+Seat 3: p_CO ($10 in chips)
+Seat 4: p_BTN ($10 in chips)
+Seat 5: p_SB ($10 in chips)
+Seat 6: p_BB ($10 in chips)
+p_SB: posts small blind $0.05
+p_BB: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_UTG 
+Dealt to Hero 
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to p_BB 
+p_UTG: folds
+Hero: raises $0.30 to $0.30
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+p_BB: folds
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005078: Hold'em No Limit ($0.05/$0.1) - 2026/09/23 06:55:22
+Table 'RushAndCash1' 6-max Seat #2 is the button
+Seat 1: p_CO ($10 in chips)
+Seat 2: p_BTN ($10 in chips)
+Seat 3: p_SB ($10 in chips)
+Seat 4: Hero ($10 in chips)
+Seat 5: p_UTG ($10 in chips)
+Seat 6: p_HJ ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to Hero 
+Dealt to p_UTG 
+Dealt to p_HJ 
+p_UTG: folds
+p_HJ: raises $0.25 to $0.25
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: folds
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005079: Hold'em No Limit ($0.05/$0.1) - 2026/09/06 06:55:22
+Table 'RushAndCash1' 6-max Seat #6 is the button
+Seat 1: p_SB ($10 in chips)
+Seat 2: p_BB ($10 in chips)
+Seat 3: p_UTG ($10 in chips)
+Seat 4: Hero ($10 in chips)
+Seat 5: p_CO ($10 in chips)
+Seat 6: p_BTN ($10 in chips)
+p_SB: posts small blind $0.05
+p_BB: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_SB 
+Dealt to p_BB 
+Dealt to p_UTG 
+Dealt to Hero 
+Dealt to p_CO 
+Dealt to p_BTN 
+p_UTG: folds
+Hero: raises $0.20 to $0.20
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+p_BB: raises $0.85 to $0.85
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005080: Hold'em No Limit ($0.05/$0.1) - 2026/09/08 06:55:22
+Table 'RushAndCash1' 6-max Seat #3 is the button
+Seat 1: p_HJ ($10 in chips)
+Seat 2: p_CO ($10 in chips)
+Seat 3: p_BTN ($10 in chips)
+Seat 4: p_SB ($10 in chips)
+Seat 5: Hero ($10 in chips)
+Seat 6: p_UTG ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_HJ 
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to Hero 
+Dealt to p_UTG 
+p_UTG: folds
+p_HJ: raises $0.25 to $0.25
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: calls $0.20
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005081: Hold'em No Limit ($0.05/$0.1) - 2026/09/02 06:55:22
+Table 'RushAndCash1' 6-max Seat #3 is the button
+Seat 1: Hero ($10 in chips)
+Seat 2: p_CO ($10 in chips)
+Seat 3: p_BTN ($10 in chips)
+Seat 4: p_SB ($10 in chips)
+Seat 5: p_BB ($10 in chips)
+Seat 6: p_UTG ($10 in chips)
+p_SB: posts small blind $0.05
+p_BB: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to Hero 
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to p_BB 
+Dealt to p_UTG 
+p_UTG: folds
+Hero: raises $0.20 to $0.20
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+p_BB: calls $0.20
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005082: Hold'em No Limit ($0.05/$0.1) - 2026/09/18 06:55:22
+Table 'RushAndCash1' 6-max Seat #5 is the button
+Seat 1: Hero ($10 in chips)
+Seat 2: p_UTG ($10 in chips)
+Seat 3: p_HJ ($10 in chips)
+Seat 4: p_CO ($10 in chips)
+Seat 5: p_BTN ($10 in chips)
+Seat 6: p_SB ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to Hero 
+Dealt to p_UTG 
+Dealt to p_HJ 
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+p_UTG: folds
+p_HJ: raises $0.25 to $0.25
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: calls $0.20
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005083: Hold'em No Limit ($0.05/$0.1) - 2026/09/08 06:55:22
+Table 'RushAndCash1' 6-max Seat #3 is the button
+Seat 1: Hero ($10 in chips)
+Seat 2: p_CO ($10 in chips)
+Seat 3: p_BTN ($10 in chips)
+Seat 4: p_SB ($10 in chips)
+Seat 5: p_BB ($10 in chips)
+Seat 6: p_UTG ($10 in chips)
+p_SB: posts small blind $0.05
+p_BB: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to Hero 
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to p_BB 
+Dealt to p_UTG 
+p_UTG: folds
+Hero: raises $0.25 to $0.25
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+p_BB: raises $1.10 to $1.10
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005084: Hold'em No Limit ($0.05/$0.1) - 2026/09/19 06:55:22
+Table 'RushAndCash1' 6-max Seat #3 is the button
+Seat 1: p_HJ ($10 in chips)
+Seat 2: p_CO ($10 in chips)
+Seat 3: p_BTN ($10 in chips)
+Seat 4: p_SB ($10 in chips)
+Seat 5: Hero ($10 in chips)
+Seat 6: p_UTG ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_HJ 
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to Hero 
+Dealt to p_UTG 
+p_UTG: folds
+p_HJ: raises $0.25 to $0.25
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: raises $0.90 to $0.90
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005085: Hold'em No Limit ($0.05/$0.1) - 2026/09/08 06:55:22
+Table 'RushAndCash1' 6-max Seat #1 is the button
+Seat 1: p_BTN ($10 in chips)
+Seat 2: p_SB ($10 in chips)
+Seat 3: p_BB ($10 in chips)
+Seat 4: p_UTG ($10 in chips)
+Seat 5: Hero ($10 in chips)
+Seat 6: p_CO ($10 in chips)
+p_SB: posts small blind $0.05
+p_BB: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to p_BB 
+Dealt to p_UTG 
+Dealt to Hero 
+Dealt to p_CO 
+p_UTG: folds
+Hero: raises $0.30 to $0.30
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+p_BB: folds
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005086: Hold'em No Limit ($0.05/$0.1) - 2026/09/29 06:55:22
+Table 'RushAndCash1' 6-max Seat #2 is the button
+Seat 1: p_CO ($10 in chips)
+Seat 2: p_BTN ($10 in chips)
+Seat 3: p_SB ($10 in chips)
+Seat 4: Hero ($10 in chips)
+Seat 5: p_UTG ($10 in chips)
+Seat 6: p_HJ ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to Hero 
+Dealt to p_UTG 
+Dealt to p_HJ 
+p_UTG: folds
+p_HJ: raises $0.30 to $0.30
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: folds
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005087: Hold'em No Limit ($0.05/$0.1) - 2026/09/05 06:55:22
+Table 'RushAndCash1' 6-max Seat #3 is the button
+Seat 1: p_HJ ($10 in chips)
+Seat 2: p_CO ($10 in chips)
+Seat 3: Hero ($10 in chips)
+Seat 4: p_SB ($10 in chips)
+Seat 5: p_BB ($10 in chips)
+Seat 6: p_UTG ($10 in chips)
+p_SB: posts small blind $0.05
+p_BB: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_HJ 
+Dealt to p_CO 
+Dealt to Hero 
+Dealt to p_SB 
+Dealt to p_BB 
+Dealt to p_UTG 
+p_UTG: folds
+p_HJ: raises $0.20 to $0.20
+p_CO: folds
+Hero: folds
+p_SB: folds
+p_BB: raises $0.85 to $0.85
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005088: Hold'em No Limit ($0.05/$0.1) - 2026/09/04 06:55:22
+Table 'RushAndCash1' 6-max Seat #6 is the button
+Seat 1: p_SB ($10 in chips)
+Seat 2: Hero ($10 in chips)
+Seat 3: p_UTG ($10 in chips)
+Seat 4: p_HJ ($10 in chips)
+Seat 5: p_CO ($10 in chips)
+Seat 6: p_BTN ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_SB 
+Dealt to Hero 
+Dealt to p_UTG 
+Dealt to p_HJ 
+Dealt to p_CO 
+Dealt to p_BTN 
+p_UTG: folds
+p_HJ: raises $0.20 to $0.20
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: raises $0.85 to $0.85
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005089: Hold'em No Limit ($0.05/$0.1) - 2026/09/04 06:55:22
+Table 'RushAndCash1' 6-max Seat #2 is the button
+Seat 1: p_CO ($10 in chips)
+Seat 2: p_BTN ($10 in chips)
+Seat 3: p_SB ($10 in chips)
+Seat 4: p_BB ($10 in chips)
+Seat 5: p_UTG ($10 in chips)
+Seat 6: Hero ($10 in chips)
+p_SB: posts small blind $0.05
+p_BB: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to p_BB 
+Dealt to p_UTG 
+Dealt to Hero 
+p_UTG: folds
+Hero: raises $0.20 to $0.20
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+p_BB: raises $0.65 to $0.65
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005090: Hold'em No Limit ($0.05/$0.1) - 2026/09/01 06:55:22
+Table 'RushAndCash1' 6-max Seat #1 is the button
+Seat 1: p_BTN ($10 in chips)
+Seat 2: p_SB ($10 in chips)
+Seat 3: Hero ($10 in chips)
+Seat 4: p_UTG ($10 in chips)
+Seat 5: p_HJ ($10 in chips)
+Seat 6: p_CO ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to Hero 
+Dealt to p_UTG 
+Dealt to p_HJ 
+Dealt to p_CO 
+p_UTG: folds
+p_HJ: raises $0.25 to $0.25
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: folds
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005091: Hold'em No Limit ($0.05/$0.1) - 2026/09/03 06:55:22
+Table 'RushAndCash1' 6-max Seat #1 is the button
+Seat 1: p_BTN ($10 in chips)
+Seat 2: Hero ($10 in chips)
+Seat 3: p_BB ($10 in chips)
+Seat 4: p_UTG ($10 in chips)
+Seat 5: p_HJ ($10 in chips)
+Seat 6: p_CO ($10 in chips)
+Hero: posts small blind $0.05
+p_BB: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_BTN 
+Dealt to Hero 
+Dealt to p_BB 
+Dealt to p_UTG 
+Dealt to p_HJ 
+Dealt to p_CO 
+p_UTG: folds
+p_HJ: raises $0.25 to $0.25
+p_CO: folds
+p_BTN: folds
+Hero: folds
+p_BB: raises $0.85 to $0.85
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005092: Hold'em No Limit ($0.05/$0.1) - 2026/09/28 06:55:22
+Table 'RushAndCash1' 6-max Seat #5 is the button
+Seat 1: Hero ($10 in chips)
+Seat 2: p_UTG ($10 in chips)
+Seat 3: p_HJ ($10 in chips)
+Seat 4: p_CO ($10 in chips)
+Seat 5: p_BTN ($10 in chips)
+Seat 6: p_SB ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to Hero 
+Dealt to p_UTG 
+Dealt to p_HJ 
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+p_UTG: folds
+p_HJ: raises $0.25 to $0.25
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: folds
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005093: Hold'em No Limit ($0.05/$0.1) - 2026/09/11 06:55:22
+Table 'RushAndCash1' 6-max Seat #2 is the button
+Seat 1: p_CO ($10 in chips)
+Seat 2: p_BTN ($10 in chips)
+Seat 3: p_SB ($10 in chips)
+Seat 4: p_BB ($10 in chips)
+Seat 5: p_UTG ($10 in chips)
+Seat 6: Hero ($10 in chips)
+p_SB: posts small blind $0.05
+p_BB: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to p_BB 
+Dealt to p_UTG 
+Dealt to Hero 
+p_UTG: folds
+Hero: raises $0.20 to $0.20
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+p_BB: calls $0.20
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005094: Hold'em No Limit ($0.05/$0.1) - 2026/09/25 06:55:22
+Table 'RushAndCash1' 6-max Seat #2 is the button
+Seat 1: p_CO ($10 in chips)
+Seat 2: p_BTN ($10 in chips)
+Seat 3: p_SB ($10 in chips)
+Seat 4: Hero ($10 in chips)
+Seat 5: p_UTG ($10 in chips)
+Seat 6: p_HJ ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to Hero 
+Dealt to p_UTG 
+Dealt to p_HJ 
+p_UTG: folds
+p_HJ: raises $0.30 to $0.30
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: folds
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005095: Hold'em No Limit ($0.05/$0.1) - 2026/09/19 06:55:22
+Table 'RushAndCash1' 6-max Seat #6 is the button
+Seat 1: p_SB ($10 in chips)
+Seat 2: p_BB ($10 in chips)
+Seat 3: p_UTG ($10 in chips)
+Seat 4: p_HJ ($10 in chips)
+Seat 5: p_CO ($10 in chips)
+Seat 6: p_BTN ($10 in chips)
+p_SB: posts small blind $0.05
+p_BB: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_SB 
+Dealt to p_BB 
+Dealt to p_UTG 
+Dealt to p_HJ 
+Dealt to p_CO 
+Dealt to p_BTN 
+p_UTG: folds
+p_HJ: raises $0.30 to $0.30
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+p_BB: raises $1.35 to $1.35
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005096: Hold'em No Limit ($0.05/$0.1) - 2026/09/29 06:55:22
+Table 'RushAndCash1' 6-max Seat #2 is the button
+Seat 1: p_CO ($10 in chips)
+Seat 2: p_BTN ($10 in chips)
+Seat 3: p_SB ($10 in chips)
+Seat 4: Hero ($10 in chips)
+Seat 5: p_UTG ($10 in chips)
+Seat 6: p_HJ ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to Hero 
+Dealt to p_UTG 
+Dealt to p_HJ 
+p_UTG: folds
+p_HJ: raises $0.25 to $0.25
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: raises $0.90 to $0.90
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005097: Hold'em No Limit ($0.05/$0.1) - 2026/09/05 06:55:22
+Table 'RushAndCash1' 6-max Seat #3 is the button
+Seat 1: Hero ($10 in chips)
+Seat 2: p_CO ($10 in chips)
+Seat 3: p_BTN ($10 in chips)
+Seat 4: p_SB ($10 in chips)
+Seat 5: p_BB ($10 in chips)
+Seat 6: p_UTG ($10 in chips)
+p_SB: posts small blind $0.05
+p_BB: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to Hero 
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to p_BB 
+Dealt to p_UTG 
+p_UTG: folds
+Hero: raises $0.20 to $0.20
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+p_BB: folds
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005098: Hold'em No Limit ($0.05/$0.1) - 2026/09/22 06:55:22
+Table 'RushAndCash1' 6-max Seat #1 is the button
+Seat 1: p_BTN ($10 in chips)
+Seat 2: p_SB ($10 in chips)
+Seat 3: Hero ($10 in chips)
+Seat 4: p_UTG ($10 in chips)
+Seat 5: p_HJ ($10 in chips)
+Seat 6: p_CO ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to Hero 
+Dealt to p_UTG 
+Dealt to p_HJ 
+Dealt to p_CO 
+p_UTG: folds
+p_HJ: raises $0.25 to $0.25
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: raises $1.00 to $1.00
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005099: Hold'em No Limit ($0.05/$0.1) - 2026/09/30 06:55:22
+Table 'RushAndCash1' 6-max Seat #2 is the button
+Seat 1: p_CO ($10 in chips)
+Seat 2: p_BTN ($10 in chips)
+Seat 3: p_SB ($10 in chips)
+Seat 4: p_BB ($10 in chips)
+Seat 5: p_UTG ($10 in chips)
+Seat 6: Hero ($10 in chips)
+p_SB: posts small blind $0.05
+p_BB: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to p_BB 
+Dealt to p_UTG 
+Dealt to Hero 
+p_UTG: folds
+Hero: raises $0.25 to $0.25
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+p_BB: calls $0.20
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005100: Hold'em No Limit ($0.05/$0.1) - 2026/09/29 06:55:22
+Table 'RushAndCash1' 6-max Seat #2 is the button
+Seat 1: p_CO ($10 in chips)
+Seat 2: p_BTN ($10 in chips)
+Seat 3: p_SB ($10 in chips)
+Seat 4: Hero ($10 in chips)
+Seat 5: p_UTG ($10 in chips)
+Seat 6: p_HJ ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to Hero 
+Dealt to p_UTG 
+Dealt to p_HJ 
+p_UTG: folds
+p_HJ: raises $0.20 to $0.20
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: calls $0.20
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005101: Hold'em No Limit ($0.05/$0.1) - 2026/09/02 06:55:22
+Table 'RushAndCash1' 6-max Seat #4 is the button
+Seat 1: p_UTG ($10 in chips)
+Seat 2: p_HJ ($10 in chips)
+Seat 3: p_CO ($10 in chips)
+Seat 4: p_BTN ($10 in chips)
+Seat 5: p_SB ($10 in chips)
+Seat 6: p_BB ($10 in chips)
+p_SB: posts small blind $0.05
+p_BB: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_UTG 
+Dealt to p_HJ 
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to p_BB 
+p_UTG: folds
+p_HJ: raises $0.25 to $0.25
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+p_BB: folds
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005102: Hold'em No Limit ($0.05/$0.1) - 2026/09/16 06:55:22
+Table 'RushAndCash1' 6-max Seat #2 is the button
+Seat 1: p_CO ($10 in chips)
+Seat 2: p_BTN ($10 in chips)
+Seat 3: p_SB ($10 in chips)
+Seat 4: Hero ($10 in chips)
+Seat 5: p_UTG ($10 in chips)
+Seat 6: p_HJ ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to Hero 
+Dealt to p_UTG 
+Dealt to p_HJ 
+p_UTG: folds
+p_HJ: raises $0.25 to $0.25
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: folds
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005103: Hold'em No Limit ($0.05/$0.1) - 2026/09/17 06:55:22
+Table 'RushAndCash1' 6-max Seat #4 is the button
+Seat 1: p_UTG ($10 in chips)
+Seat 2: p_HJ ($10 in chips)
+Seat 3: p_CO ($10 in chips)
+Seat 4: p_BTN ($10 in chips)
+Seat 5: p_SB ($10 in chips)
+Seat 6: p_BB ($10 in chips)
+p_SB: posts small blind $0.05
+p_BB: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_UTG 
+Dealt to p_HJ 
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to p_BB 
+p_UTG: folds
+p_HJ: raises $0.30 to $0.30
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+p_BB: folds
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005104: Hold'em No Limit ($0.05/$0.1) - 2026/09/12 06:55:22
+Table 'RushAndCash1' 6-max Seat #2 is the button
+Seat 1: p_CO ($10 in chips)
+Seat 2: p_BTN ($10 in chips)
+Seat 3: p_SB ($10 in chips)
+Seat 4: Hero ($10 in chips)
+Seat 5: p_UTG ($10 in chips)
+Seat 6: p_HJ ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to Hero 
+Dealt to p_UTG 
+Dealt to p_HJ 
+p_UTG: folds
+p_HJ: raises $0.30 to $0.30
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: folds
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005105: Hold'em No Limit ($0.05/$0.1) - 2026/09/22 06:55:22
+Table 'RushAndCash1' 6-max Seat #2 is the button
+Seat 1: p_CO ($10 in chips)
+Seat 2: p_BTN ($10 in chips)
+Seat 3: p_SB ($10 in chips)
+Seat 4: p_BB ($10 in chips)
+Seat 5: p_UTG ($10 in chips)
+Seat 6: Hero ($10 in chips)
+p_SB: posts small blind $0.05
+p_BB: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to p_BB 
+Dealt to p_UTG 
+Dealt to Hero 
+p_UTG: folds
+Hero: raises $0.30 to $0.30
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+p_BB: calls $0.20
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005106: Hold'em No Limit ($0.05/$0.1) - 2026/09/30 06:55:22
+Table 'RushAndCash1' 6-max Seat #4 is the button
+Seat 1: p_UTG ($10 in chips)
+Seat 2: p_HJ ($10 in chips)
+Seat 3: p_CO ($10 in chips)
+Seat 4: p_BTN ($10 in chips)
+Seat 5: p_SB ($10 in chips)
+Seat 6: Hero ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_UTG 
+Dealt to p_HJ 
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to Hero 
+p_UTG: folds
+p_HJ: raises $0.25 to $0.25
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: calls $0.20
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005107: Hold'em No Limit ($0.05/$0.1) - 2026/09/22 06:55:22
+Table 'RushAndCash1' 6-max Seat #4 is the button
+Seat 1: p_UTG ($10 in chips)
+Seat 2: p_HJ ($10 in chips)
+Seat 3: p_CO ($10 in chips)
+Seat 4: p_BTN ($10 in chips)
+Seat 5: p_SB ($10 in chips)
+Seat 6: p_BB ($10 in chips)
+p_SB: posts small blind $0.05
+p_BB: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_UTG 
+Dealt to p_HJ 
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to p_BB 
+p_UTG: folds
+p_HJ: raises $0.20 to $0.20
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+p_BB: folds
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005108: Hold'em No Limit ($0.05/$0.1) - 2026/09/16 06:55:22
+Table 'RushAndCash1' 6-max Seat #5 is the button
+Seat 1: Hero ($10 in chips)
+Seat 2: p_UTG ($10 in chips)
+Seat 3: p_HJ ($10 in chips)
+Seat 4: p_CO ($10 in chips)
+Seat 5: p_BTN ($10 in chips)
+Seat 6: p_SB ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to Hero 
+Dealt to p_UTG 
+Dealt to p_HJ 
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+p_UTG: folds
+p_HJ: raises $0.30 to $0.30
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: calls $0.20
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005109: Hold'em No Limit ($0.05/$0.1) - 2026/09/30 06:55:22
+Table 'RushAndCash1' 6-max Seat #1 is the button
+Seat 1: p_BTN ($10 in chips)
+Seat 2: p_SB ($10 in chips)
+Seat 3: Hero ($10 in chips)
+Seat 4: p_UTG ($10 in chips)
+Seat 5: p_HJ ($10 in chips)
+Seat 6: p_CO ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to Hero 
+Dealt to p_UTG 
+Dealt to p_HJ 
+Dealt to p_CO 
+p_UTG: folds
+p_HJ: raises $0.20 to $0.20
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: raises $0.90 to $0.90
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005110: Hold'em No Limit ($0.05/$0.1) - 2026/09/20 06:55:22
+Table 'RushAndCash1' 6-max Seat #3 is the button
+Seat 1: p_HJ ($10 in chips)
+Seat 2: p_CO ($10 in chips)
+Seat 3: p_BTN ($10 in chips)
+Seat 4: p_SB ($10 in chips)
+Seat 5: Hero ($10 in chips)
+Seat 6: p_UTG ($10 in chips)
+p_SB: posts small blind $0.05
+Hero: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_HJ 
+Dealt to p_CO 
+Dealt to p_BTN 
+Dealt to p_SB 
+Dealt to Hero 
+Dealt to p_UTG 
+p_UTG: folds
+p_HJ: raises $0.30 to $0.30
+p_CO: folds
+p_BTN: folds
+p_SB: folds
+Hero: folds
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+
+Poker Hand #RS1000005111: Hold'em No Limit ($0.05/$0.1) - 2026/09/15 06:55:22
+Table 'RushAndCash1' 6-max Seat #6 is the button
+Seat 1: p_SB ($10 in chips)
+Seat 2: p_BB ($10 in chips)
+Seat 3: p_UTG ($10 in chips)
+Seat 4: p_HJ ($10 in chips)
+Seat 5: p_CO ($10 in chips)
+Seat 6: Hero ($10 in chips)
+p_SB: posts small blind $0.05
+p_BB: posts big blind $0.1
+*** HOLE CARDS ***
+Dealt to p_SB 
+Dealt to p_BB 
+Dealt to p_UTG 
+Dealt to p_HJ 
+Dealt to p_CO 
+Dealt to Hero 
+p_UTG: folds
+p_HJ: raises $0.30 to $0.30
+p_CO: folds
+Hero: folds
+p_SB: folds
+p_BB: raises $1.00 to $1.00
+*** SUMMARY ***
+Total pot $0.5 | Rake $0.02 | Jackpot $0 | Bingo $0 | Fortune $0 | Tax $0
+

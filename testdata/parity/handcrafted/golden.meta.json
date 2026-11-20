@@ -1,0 +1,10 @@
+{
+ "corpus": "handcrafted",
+ "python_version": "3.12.12 (main, Feb  4 2026, 01:57:59) [Clang 21.1.4 ]",
+ "python_repo_commit": "7354dff5ccc55703733ab97269a1471d8479378f",
+ "platform": "macOS-26.3.1-arm64-arm-64bit",
+ "uv_version": "uv 0.10.2 (Homebrew 2026-02-10)",
+ "exit_code": 0,
+ "corpus_manifest_sha256": "5115f8df76cf8ae3542f14aa96a67f7a07f98151d798475ae6f55e982cba960d",
+ "command": "uv run --frozen --project <python repo> preflop-matrix --hands testdata/parity/handcrafted/hands --ranges testdata/parity/handcrafted/ranges -o /dev/null --json testdata/parity/handcrafted/golden.json"
+}

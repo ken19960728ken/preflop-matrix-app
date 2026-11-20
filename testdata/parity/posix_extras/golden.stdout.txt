@@ -1,0 +1,4 @@
+理論範圍來源：參數 --ranges → testdata/parity/posix_extras/ranges
+手牌：掃描 1 個檔案，採用 54 手；重複略過 0、非 6 人桌排除 0、無法解析略過 0、無法讀取的檔案 0
+理論範圍：7 個檔案，對應到節點 6 個；忽略（多人或不認得）1、重複 0、無法讀取 0、未填（空白檔）0
+已輸出：/dev/null、testdata/parity/posix_extras/golden.json
