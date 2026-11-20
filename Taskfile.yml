@@ -39,6 +39,18 @@ tasks:
     cmds:
       - wails3 dev -config ./build/config.yml -port {{.VITE_PORT}}
 
+  test:
+    summary: Runs all Go tests
+    cmds:
+      - go test ./...
+
+  test:report:
+    summary: Runs the report tests including the headless Chrome ones (Chrome is required)
+    env:
+      PMA_REQUIRE_CHROME: "1"
+    cmds:
+      - go test ./internal/report/...
+
   install:msix:tools:
     summary: Installs tools required for Windows MSIX packaging
     cmds:

@@ -1,0 +1,18 @@
+{
+ "rename": [
+  {
+   "from": "ranges/HJ__TAB__vs__TAB__BTN__TAB__3bet__TAB__call.txt",
+   "to": "ranges/HJ\tvs\tBTN\t3bet\tcall.txt"
+  }
+ ],
+ "symlink": [
+  {
+   "path": "ranges/link/BB vs SB open call.txt",
+   "target": "../shared/source_for_link.txt"
+  },
+  {
+   "path": "ranges/0link",
+   "target": "../ranges_decoy"
+  }
+ ]
+}

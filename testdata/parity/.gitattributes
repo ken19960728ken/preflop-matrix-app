@@ -1,0 +1,4 @@
+# 語料需逐位元組保留（BOM、CRLF、單獨 \r、非法 UTF-8），不做換行轉換
+* -text -diff
+# golden 是 Python 輸出的文字檔，允許正常 diff
+golden.* -text diff

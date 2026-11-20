@@ -1,0 +1,258 @@
+[
+ {
+  "key": "cli.description",
+  "args": {},
+  "want": "6-max 翻前位置矩陣熱力圖（理論 / Hero / 玩家池）"
+ },
+ {
+  "key": "cli.help.hands",
+  "args": {},
+  "want": "GG 手牌資料夾（遞迴掃描 .txt）"
+ },
+ {
+  "key": "cli.help.ranges",
+  "args": {
+   "env": "PREFLOP_MATRIX_RANGES",
+   "default": "/home/x/.config/preflop-matrix/ranges"
+  },
+  "want": "理論範圍資料夾（.txt）。省略時依序用環境變數 PREFLOP_MATRIX_RANGES、預設資料夾 /home/x/.config/preflop-matrix/ranges"
+ },
+ {
+  "key": "cli.help.out",
+  "args": {},
+  "want": "輸出 HTML（預設 preflop_matrix.html）"
+ },
+ {
+  "key": "cli.help.hero",
+  "args": {},
+  "want": "Hero 的玩家名稱（預設 Hero）"
+ },
+ {
+  "key": "cli.help.title",
+  "args": {
+   "default": "翻前位置矩陣"
+  },
+  "want": "頁面標題（預設 翻前位置矩陣）"
+ },
+ {
+  "key": "cli.help.json",
+  "args": {},
+  "want": "另存矩陣資料 JSON"
+ },
+ {
+  "key": "cli.origin.flag",
+  "args": {},
+  "want": "參數 --ranges"
+ },
+ {
+  "key": "cli.origin.env",
+  "args": {
+   "env": "PREFLOP_MATRIX_RANGES"
+  },
+  "want": "環境變數 PREFLOP_MATRIX_RANGES"
+ },
+ {
+  "key": "cli.origin.default",
+  "args": {},
+  "want": "預設資料夾"
+ },
+ {
+  "key": "cli.hands_summary",
+  "args": {
+   "files": "12",
+   "hands": "7",
+   "duplicates": "3",
+   "not_six_max": "4",
+   "unparseable": "2",
+   "unreadable": "1"
+  },
+  "want": "手牌：掃描 12 個檔案，採用 7 手；重複略過 3、非 6 人桌排除 4、無法解析略過 2、無法讀取的檔案 1"
+ },
+ {
+  "key": "cli.hands_error_sample",
+  "args": {
+   "sample": "a.txt: bad line"
+  },
+  "want": "  無法解析範例：a.txt: bad line"
+ },
+ {
+  "key": "cli.ranges_summary",
+  "args": {
+   "files": "10",
+   "nodes": "6",
+   "ignored": "1",
+   "duplicates": "1",
+   "unreadable": "1",
+   "unfilled": "1"
+  },
+  "want": "理論範圍：10 個檔案，對應到節點 6 個；忽略（多人或不認得）1、重複 1、無法讀取 1、未填（空白檔）1"
+ },
+ {
+  "key": "cli.ranges_unreadable",
+  "args": {
+   "item": "u.txt: err"
+  },
+  "want": "  無法讀取：u.txt: err"
+ },
+ {
+  "key": "cli.ranges_unfilled",
+  "args": {
+   "item": "f.txt"
+  },
+  "want": "  未填（空白檔）：f.txt"
+ },
+ {
+  "key": "cli.ranges_incomplete",
+  "args": {
+   "item": "MISSING-X"
+  },
+  "want": "  理論範圍不完整：MISSING-X"
+ },
+ {
+  "key": "cli.ranges_duplicate",
+  "args": {
+   "item": "d.txt"
+  },
+  "want": "  重複的節點檔（只用第一個）：d.txt"
+ },
+ {
+  "key": "cli.error_prefix",
+  "args": {
+   "message": "手牌資料夾不存在或不是資料夾：/nonexistent/hands"
+  },
+  "want": "錯誤：手牌資料夾不存在或不是資料夾：/nonexistent/hands"
+ },
+ {
+  "key": "cli.error.hands_dir",
+  "args": {
+   "path": "/nonexistent/hands"
+  },
+  "want": "手牌資料夾不存在或不是資料夾：/nonexistent/hands"
+ },
+ {
+  "key": "cli.error_prefix",
+  "args": {
+   "message": "理論範圍資料夾不存在或不是資料夾（來源：參數 --ranges）：/nonexistent/r"
+  },
+  "want": "錯誤：理論範圍資料夾不存在或不是資料夾（來源：參數 --ranges）：/nonexistent/r"
+ },
+ {
+  "key": "cli.error.ranges_dir",
+  "args": {
+   "origin": "參數 --ranges",
+   "path": "/nonexistent/r",
+   "hint": ""
+  },
+  "want": "理論範圍資料夾不存在或不是資料夾（來源：參數 --ranges）：/nonexistent/r"
+ },
+ {
+  "key": "cli.error_prefix",
+  "args": {
+   "message": "理論範圍資料夾不存在或不是資料夾（來源：環境變數 PREFLOP_MATRIX_RANGES）：/nonexistent/envr；請修正或 unset PREFLOP_MATRIX_RANGES（見 docs/RANGES.md）"
+  },
+  "want": "錯誤：理論範圍資料夾不存在或不是資料夾（來源：環境變數 PREFLOP_MATRIX_RANGES）：/nonexistent/envr；請修正或 unset PREFLOP_MATRIX_RANGES（見 docs/RANGES.md）"
+ },
+ {
+  "key": "cli.error.ranges_dir",
+  "args": {
+   "origin": "環境變數 PREFLOP_MATRIX_RANGES",
+   "path": "/nonexistent/envr",
+   "hint": "；請修正或 unset PREFLOP_MATRIX_RANGES（見 docs/RANGES.md）"
+  },
+  "want": "理論範圍資料夾不存在或不是資料夾（來源：環境變數 PREFLOP_MATRIX_RANGES）：/nonexistent/envr；請修正或 unset PREFLOP_MATRIX_RANGES（見 docs/RANGES.md）"
+ },
+ {
+  "key": "cli.hint.env",
+  "args": {
+   "env": "PREFLOP_MATRIX_RANGES"
+  },
+  "want": "；請修正或 unset PREFLOP_MATRIX_RANGES（見 docs/RANGES.md）"
+ },
+ {
+  "key": "cli.error_prefix",
+  "args": {
+   "message": "理論範圍資料夾不存在或不是資料夾（來源：預設資料夾）：/home/x/.config/preflop-matrix/ranges；請用 --ranges 指定、設定環境變數 PREFLOP_MATRIX_RANGES，或把範圍檔放到 /home/x/.config/preflop-matrix/ranges（見 docs/RANGES.md）"
+  },
+  "want": "錯誤：理論範圍資料夾不存在或不是資料夾（來源：預設資料夾）：/home/x/.config/preflop-matrix/ranges；請用 --ranges 指定、設定環境變數 PREFLOP_MATRIX_RANGES，或把範圍檔放到 /home/x/.config/preflop-matrix/ranges（見 docs/RANGES.md）"
+ },
+ {
+  "key": "cli.error.ranges_dir",
+  "args": {
+   "origin": "預設資料夾",
+   "path": "/home/x/.config/preflop-matrix/ranges",
+   "hint": "；請用 --ranges 指定、設定環境變數 PREFLOP_MATRIX_RANGES，或把範圍檔放到 /home/x/.config/preflop-matrix/ranges（見 docs/RANGES.md）"
+  },
+  "want": "理論範圍資料夾不存在或不是資料夾（來源：預設資料夾）：/home/x/.config/preflop-matrix/ranges；請用 --ranges 指定、設定環境變數 PREFLOP_MATRIX_RANGES，或把範圍檔放到 /home/x/.config/preflop-matrix/ranges（見 docs/RANGES.md）"
+ },
+ {
+  "key": "cli.hint.default",
+  "args": {
+   "env": "PREFLOP_MATRIX_RANGES",
+   "default": "/home/x/.config/preflop-matrix/ranges"
+  },
+  "want": "；請用 --ranges 指定、設定環境變數 PREFLOP_MATRIX_RANGES，或把範圍檔放到 /home/x/.config/preflop-matrix/ranges（見 docs/RANGES.md）"
+ },
+ {
+  "key": "cli.ranges_source",
+  "args": {
+   "origin": "參數 --ranges",
+   "path": "<TMP>/ranges"
+  },
+  "want": "理論範圍來源：參數 --ranges → <TMP>/ranges"
+ },
+ {
+  "key": "cli.error.same_output",
+  "args": {},
+  "want": "--json 和 -o 不能指向同一個檔案"
+ },
+ {
+  "key": "cli.error.no_hands",
+  "args": {
+   "dir": "<TMP>/hands"
+  },
+  "want": "<TMP>/hands 底下沒有可用的手牌（需要 GG 格式、6 人桌的 .txt）"
+ },
+ {
+  "key": "cli.error.no_ranges_files",
+  "args": {
+   "dir": "<TMP>/ranges"
+  },
+  "want": "<TMP>/ranges 底下沒有 .txt 範圍檔"
+ },
+ {
+  "key": "cli.warning_prefix",
+  "args": {
+   "message": "w1"
+  },
+  "want": "警告：w1"
+ },
+ {
+  "key": "cli.warning.no_hero",
+  "args": {
+   "hero": "'Hero'"
+  },
+  "want": "所有手牌都沒有名為 'Hero' 的玩家，「我」欄會是空的（可用 --hero 指定）"
+ },
+ {
+  "key": "cli.error.write_output",
+  "args": {
+   "err": "[Errno 20] Not a directory: '<TMP>/file.txt/sub'"
+  },
+  "want": "無法寫入輸出：[Errno 20] Not a directory: '<TMP>/file.txt/sub'"
+ },
+ {
+  "key": "cli.done",
+  "args": {
+   "out": "<TMP>/o.html"
+  },
+  "want": "已輸出：<TMP>/o.html"
+ },
+ {
+  "key": "cli.done_with_json",
+  "args": {
+   "out": "<TMP>/o.html",
+   "json": "<TMP>/o.json"
+  },
+  "want": "已輸出：<TMP>/o.html、<TMP>/o.json"
+ }
+]
