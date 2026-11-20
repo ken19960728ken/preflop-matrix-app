@@ -34,6 +34,8 @@ go vet ./... ; echo "exit=$?"
 go test ./... ; echo "exit=$?"
 ```
 
+日常開發用 `go test -short ./...`（略過需要 Google Chrome 的報告渲染測試）。commit 前跑 `task test:report`（等效：`PMA_REQUIRE_CHROME=1 go test ./internal/report/...`），它用 headless Chrome（`/Applications/Google Chrome.app`）實際渲染三語報告，找不到 Chrome 會失敗而不是略過。
+
 ### 建置與執行
 
 ```sh
