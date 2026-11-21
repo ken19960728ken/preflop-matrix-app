@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>mock report</title>
+<style>
+:root{--bg:#f2f4f1;--surface:#fff;--fg:#1c2420;--muted:#5e6b65;--line:#d4dcd7;--lvl:31,107,82}
+@media (prefers-color-scheme:dark){:root{--bg:#121815;--surface:#19211d;--fg:#e3eae6;--muted:#9aaba3;--line:#2c3833;--lvl:95,196,157}}
+body{margin:0;padding:24px 28px 400px;background:var(--bg);color:var(--fg);font:15px/1.6 "Noto Sans TC","PingFang TC",system-ui,sans-serif}
+h1{font:700 28px "Noto Serif TC","Songti TC",serif;margin:0 0 4px}h2{font:700 20px "Noto Serif TC",serif;margin:32px 0 8px}
+p{color:var(--muted);margin:0 0 12px}table{border-collapse:separate;border-spacing:2px;font:12px ui-monospace,Menlo,monospace}
+td,th{width:64px;height:34px;text-align:center;border-radius:3px}th{color:var(--muted);font-weight:500}
+td:target{outline:2px solid var(--fg)}
+</style></head><body>
+<h1 id="t"></h1><p id="p"></p>
+<script>
+const L=new URLSearchParams(location.search).get("lang")||"en";
+const S={"zh-Hant":["翻前位置矩陣（模擬報告）","這是開發用的假報告，只有版面示意。"],"zh-Hans":["翻前位置矩阵（模拟报告）","这是开发用的假报告，只有版面示意。"],en:["Preflop position matrix (mock report)","A development stand-in; layout only."]}[L]||[];
+t.textContent=S[0];p.textContent=S[1];
+const pos=["UTG","HJ","CO","BTN","SB","BB"];
+for(const sec of ["vs_open","vs_3bet","vs_4bet"]){
+  const h=document.createElement("h2");h.textContent=sec;document.body.append(h);
+  const tb=document.createElement("table");tb.innerHTML="<tr><th></th>"+pos.map(x=>"<th>"+x+"</th>").join("")+"</tr>";
+  pos.forEach((r,i)=>{const tr=document.createElement("tr");tr.innerHTML="<th>"+r+"</th>";
+    pos.forEach((c,j)=>{const td=document.createElement("td");const v=((i*7+j*13)%10)/10;
+      td.style.background="rgba(var(--lvl),"+(0.08+v*0.7).toFixed(2)+")";td.textContent=Math.round(v*60)+"%";
+      td.id=`cell-${sec}-${r}-${c}-pool-r`;tr.append(td)});tb.append(tr)});
+  document.body.append(tb);
+}
+</script></body></html>

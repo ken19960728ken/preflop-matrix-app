@@ -19,10 +19,12 @@ frontend/dist/*
 *.html
 !internal/report/template.html
 !frontend/index.html
+!frontend/dev/testdata/*.html
 *.json
 !internal/i18n/locales/**/*.json
 !testdata/parity/**/*.json
 !internal/**/testdata/**/*.json
+!frontend/dev/testdata/*.json
 !frontend/package.json
 !frontend/package-lock.json
 !frontend/tsconfig*.json

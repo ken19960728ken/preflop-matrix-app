@@ -1,0 +1,5 @@
+{
+  // 含 dev/（mock 與其資料）；正式 tsconfig.json 只檢查 src 與 bindings。
+  "extends": "./tsconfig.json",
+  "include": ["src", "bindings", "dev"]
+}
