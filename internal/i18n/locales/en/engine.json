@@ -1,0 +1,23 @@
+{
+  "engine.parse.bad_amount": "invalid amount: {text}",
+  "engine.parse.bad_header": "unsupported game or malformed header: {line}",
+  "engine.parse.missing_sections": "the hand has no HOLE CARDS or SUMMARY section",
+  "engine.parse.unrecognised_before_deal": "unrecognised line before the deal: {line}",
+  "engine.parse.unrecognised_preflop": "unrecognised preflop line: {line}",
+  "engine.parse.duplicate_player": "two players have the same name",
+  "engine.parse.table_size": "{count} players (only {size}-handed hands are used)",
+  "engine.parse.button_empty": "the button seat {seat} is empty",
+  "engine.parse.player_not_seated": "player is not seated: {player}",
+  "engine.parse.blinds_mismatch": "the positions worked out from the button do not match the players who posted the blinds",
+  "engine.parse.bad_seat": "seat number out of range: {seat}",
+  "engine.load.file_unreadable": "cannot read file: {reason}",
+  "engine.range.bad_card": "invalid card: {card}",
+  "engine.range.same_card": "the same card appears twice: {cards}",
+  "engine.range.bad_combo": "invalid combo: {token}",
+  "engine.range.duplicate_combo": "duplicate combo: {cards}",
+  "engine.range.bad_weight": "invalid weight: {token}",
+  "engine.range.not_a_float": "not a number: {value}",
+  "engine.range.invalid_utf8": "the file is not valid UTF-8",
+  "engine.matrix.missing_action": "{node} {cell} is missing {action}, counted as 0",
+  "engine.matrix.theory_over_one": "{node} {cell} theory call + raise = {total} exceeds 1, scaled down proportionally to 1"
+}

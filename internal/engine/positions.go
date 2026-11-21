@@ -11,6 +11,10 @@ type TableFormat struct {
 	Size       int
 	Positions  []string // in preflop action order: the opener always comes before the players who answer it
 	FromButton []string // dealing order, starting with the seat left of the button
+	// FiveBetAllInOnly are the cells (earlier, later) whose 5bet has only an all in file in the template. In the
+	// user's R&C reference solution the 5bet of these vs_4bet cells is always all in (there is no smaller size),
+	// so no plain 5bet file is offered; completeness still accepts either file.
+	FiveBetAllInOnly []Pair
 }
 
 // sixMax is the only registered format.
@@ -18,12 +22,15 @@ var sixMax = TableFormat{
 	Size:       6,
 	Positions:  []string{"UTG", "HJ", "CO", "BTN", "SB", "BB"},
 	FromButton: []string{"SB", "BB", "UTG", "HJ", "CO", "BTN"},
+
+	FiveBetAllInOnly: []Pair{{"SB", "BB"}, {"CO", "BTN"}},
 }
 
 var formats = []TableFormat{sixMax}
 
 func (f TableFormat) clone() TableFormat {
-	return TableFormat{f.Size, append([]string(nil), f.Positions...), append([]string(nil), f.FromButton...)}
+	return TableFormat{f.Size, append([]string(nil), f.Positions...), append([]string(nil), f.FromButton...),
+		append([]Pair(nil), f.FiveBetAllInOnly...)}
 }
 
 // SixMax returns the 6-max format.
