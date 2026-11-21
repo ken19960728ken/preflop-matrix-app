@@ -7,6 +7,8 @@ import (
 	"strconv"
 	"strings"
 	"testing"
+
+	"github.com/ken19960728ken/preflop-matrix-app/internal/numfmt"
 )
 
 func TestSameFileCheckFollowsSymlinkBeforeDotDot(t *testing.T) {
@@ -153,7 +155,7 @@ func TestTopLimitsRowsPerGroup(t *testing.T) {
 
 func TestDeviationNumbersAreSignedLikeTheReport(t *testing.T) {
 	for v, want := range map[float64]string{0: "0.0", 0.04: "0.0", -0.04: "0.0", 1.26: "+1.3", -1.26: "-1.3", 100: "+100.0"} {
-		if got := signed(v); got != want {
+		if got := numfmt.Signed(v); got != want {
 			t.Errorf("signed(%v) = %q, want %q", v, got, want)
 		}
 	}
