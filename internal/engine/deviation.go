@@ -15,6 +15,8 @@ const (
 	MinN = 30
 	// ZMin is the smallest |z| a cell needs to be listed.
 	ZMin = 3
+	// zTolerance absorbs floating-point error at the ZMin boundary (z = 3 computed as 2.9999999999999996 still counts).
+	zTolerance = 1e-9
 	// MaxTopN is the largest number of rows per table.
 	MaxTopN = 20
 
@@ -178,6 +180,7 @@ func pairCands(out map[string][]candidate, cells *OMap[PairCell], info NodeInfo,
 		if info.EarlierIsVs {
 			decider, opponent = p.Later, p.Earlier
 		}
+		// BuildMatrix scales a theory with c+r above 1 down to 1, so this clamp only absorbs floating-point error.
 		theory := [3]float64{clamp(1-cell.Th.C-cell.Th.R, 0, 1), cell.Th.C, cell.Th.R}
 		for _, who := range []string{WhoPool, WhoMe} {
 			obs := obsFor(cell, who)
@@ -214,7 +217,7 @@ func appendCand(list []candidate, d Deviation, obs, theory float64, n, node, cel
 	d.DiffPP = (obs - theory) * 100
 	d.Z = (obs - theory) / math.Sqrt(tc*(1-tc)/float64(n))
 	d.Clamped = tc != theory
-	if math.Abs(d.Z) < ZMin {
+	if !(math.Abs(d.Z) >= ZMin-zTolerance) {
 		return list
 	}
 	return append(list, candidate{d, cohenH(obs, theory), node, cell, action})

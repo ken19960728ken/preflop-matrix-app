@@ -59,7 +59,7 @@
   "report.notice.noRanges": "未选择理论范围：理论值均显示为 –",
   "report.notice.incomplete": "理论范围不完整：缺 {nodes} 个节点、缺 {actions} 个动作文件（按 0 计）",
   "report.dev.title": "偏离摘要",
-  "report.dev.formula": "列出 n ≥ 30 且 |z| ≥ 3 的格子，其中 z = (实际 − 理论) ÷ √(理论 × (1 − 理论) ÷ n)，分母中的理论值限制在 0.5%～99.5%；按效应量（Cohen's h）从大到小排列。同一格只列偏离最大的动作；点击一行可跳到报告中的对应格子。",
+  "report.dev.formula": "列出 n ≥ 30 且 |z| ≥ 3 的格子，其中 z = (实际 − 理论) ÷ √(理论 × (1 − 理论) ÷ n)，根号内的理论值调整到 0.5%～99.5%。按效应量 h = |2·asin√实际 − 2·asin√理论|（Cohen's h，理论值不经调整）从大到小排列。每格只列效应量最大的动作；点击一行可跳到报告中的对应格子。",
   "report.dev.pool": "玩家池",
   "report.dev.me": "我（{hero}）",
   "report.dev.col.spot": "位置对抗",
