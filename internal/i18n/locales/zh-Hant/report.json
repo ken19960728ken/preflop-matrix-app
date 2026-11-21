@@ -59,7 +59,7 @@
   "report.notice.noRanges": "未選擇理論範圍：理論值均顯示為 –",
   "report.notice.incomplete": "理論範圍不完整：缺 {nodes} 個節點、缺 {actions} 個動作檔（當 0）",
   "report.dev.title": "偏離摘要",
-  "report.dev.formula": "z = (實際 − 理論) ÷ √(理論 × (1 − 理論) ÷ n)。同一格只列 |z| 最大的動作，依 |z| 由大到小排列；點選一列可跳到報告中的對應格子。",
+  "report.dev.formula": "列出 n ≥ 30 且 |z| ≥ 3 的格子，其中 z = (實際 − 理論) ÷ √(理論 × (1 − 理論) ÷ n)，分母中的理論值夾在 0.5%～99.5%；依效果量（Cohen's h）由大到小排列。同一格只列偏離最大的動作；點選一列可跳到報告中的對應格子。",
   "report.dev.pool": "玩家池",
   "report.dev.me": "我（{hero}）",
   "report.dev.col.spot": "位置對抗",

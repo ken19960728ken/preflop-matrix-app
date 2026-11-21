@@ -29,14 +29,16 @@ type NodeInfo struct {
 	Pair bool
 	// EarlierIsVs: the player deciding acts later than the opponent (so the cell key is "<opponent>><decider>").
 	EarlierIsVs bool
+	// Deviation: the node is listed in the deviation summary (vs_5bet is not).
+	Deviation bool
 }
 
 var nodes = []NodeInfo{
-	{NodeOpen, false, false},
-	{NodeVsOpen, true, true},
-	{NodeVs3bet, true, false},
-	{NodeVs4bet, true, true},
-	{NodeVs5bet, true, false},
+	{NodeOpen, false, false, true},
+	{NodeVsOpen, true, true, true},
+	{NodeVs3bet, true, false, true},
+	{NodeVs4bet, true, true, true},
+	{NodeVs5bet, true, false, false},
 }
 
 // Nodes lists the five nodes in matrix order.
