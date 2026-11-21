@@ -1,4 +1,4 @@
-// Package engine implements the range parsing, matrix computation and (later) deviation statistics of the
+// Package engine implements the range parsing, matrix computation and deviation statistics of the
 // preflop matrix. It does not import Wails and contains no translated text: warnings and errors are Message
 // values (key plus pre-formatted arguments); see messages.go.
 //

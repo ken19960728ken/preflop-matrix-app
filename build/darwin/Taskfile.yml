@@ -6,6 +6,9 @@ includes:
 tasks:
   build:
     summary: Builds the application
+    preconditions:
+      - sh: test "$(wails3 version 2>&1)" = "v3.0.0"
+        msg: "wails3 must be exactly v3.0.0 (go install github.com/wailsapp/wails/v3/cmd/wails3@v3.0.0)"
     cmds:
       - task: build:native
         vars:
@@ -81,6 +84,9 @@ tasks:
 
   package:
     summary: Packages the application into a `.app` bundle
+    preconditions:
+      - sh: test "$(wails3 version 2>&1)" = "v3.0.0"
+        msg: "wails3 must be exactly v3.0.0 (go install github.com/wailsapp/wails/v3/cmd/wails3@v3.0.0)"
     deps:
       - task: build
     cmds:
@@ -88,6 +94,9 @@ tasks:
 
   package:universal:
     summary: Packages darwin universal binary (arm64 + amd64)
+    preconditions:
+      - sh: test "$(wails3 version 2>&1)" = "v3.0.0"
+        msg: "wails3 must be exactly v3.0.0 (go install github.com/wailsapp/wails/v3/cmd/wails3@v3.0.0)"
     deps:
       - task: build:universal
     cmds:
