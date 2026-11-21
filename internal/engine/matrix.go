@@ -310,23 +310,8 @@ func (n *TheoryNode) inputs(book *RangeBook, earlier, later string) (Range, [2]R
 // MissingActions lists the theory cells that have only one of their two actions (the other counts as 0).
 func MissingActions(book *RangeBook) []Message {
 	var out []Message
-	for i := range theoryNodes {
-		row := &theoryNodes[i]
-		if !row.pairNode() {
-			continue
-		}
-		for _, p := range DefaultFormat().Pairs() {
-			base, acts := row.inputs(book, p.Earlier, p.Later)
-			if (row.Base != nil && base == nil) || (acts[0] == nil && acts[1] == nil) {
-				continue
-			}
-			for j, rng := range acts {
-				if rng == nil {
-					out = append(out, newMsg(MsgMatrixMissingAction,
-						"node", row.Node, "cell", p.Earlier+">"+p.Later, "action", row.Actions[j].Name))
-				}
-			}
-		}
+	for _, m := range missingActions(book) {
+		out = append(out, m.Msg)
 	}
 	return out
 }

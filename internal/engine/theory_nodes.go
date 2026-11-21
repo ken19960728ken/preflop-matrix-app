@@ -41,6 +41,11 @@ type TheoryNode struct {
 	Map       func(rawAction string) string
 	Base      *BaseRef
 	Actions   [2]ActionSpec
+	// Stem is the standard file name of the node (without .txt and without bet sizes), with {ACTOR}, {VS} and
+	// {ACTION} (the range-key action, "_allin" spelled " all in"); it must parse back to the same key.
+	Stem string
+	// AllInFile adds a standard file for each further key of the second action (the all in spelling).
+	AllInFile bool
 }
 
 const sizePattern = `\d+(?:\.\d+)?bb`
@@ -64,6 +69,7 @@ var theoryNodes = []TheoryNode{
 		FileRegex: `^({POS}) open(?: {SIZE})?$`,
 		Map:       func(string) string { return ActRangeRaise },
 		Actions:   [2]ActionSpec{{"raise", []string{ActRangeRaise}}},
+		Stem:      "{ACTOR} open",
 	},
 	{
 		Node:      NodeVsOpen,
@@ -75,6 +81,7 @@ var theoryNodes = []TheoryNode{
 			return raw
 		},
 		Actions: [2]ActionSpec{{"call", []string{"call"}}, {"3bet", []string{"3bet"}}},
+		Stem:    "{ACTOR} vs {VS} open {ACTION}",
 	},
 	{
 		Node:      NodeVs3bet,
@@ -82,6 +89,7 @@ var theoryNodes = []TheoryNode{
 		Map:       raiseAction("4bet"),
 		Base:      &BaseRef{NodeOpen, false, ActRangeRaise},
 		Actions:   [2]ActionSpec{{"call", []string{"call"}}, {"4bet", []string{"4bet", "4bet_allin"}}},
+		Stem:      "{ACTOR} vs {VS} 3bet {ACTION}",
 	},
 	{
 		Node:      NodeVs4bet,
@@ -89,6 +97,8 @@ var theoryNodes = []TheoryNode{
 		Map:       raiseAction("5bet"),
 		Base:      &BaseRef{NodeVsOpen, true, "3bet"},
 		Actions:   [2]ActionSpec{{"call", []string{"call"}}, {"5bet", []string{"5bet", "5bet_allin"}}},
+		Stem:      "{ACTOR} vs {VS} 4bet {ACTION}",
+		AllInFile: true,
 	},
 }
 
