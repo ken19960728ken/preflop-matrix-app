@@ -1,0 +1,23 @@
+{
+  "engine.parse.bad_amount": "金额格式错误：{text}",
+  "engine.parse.bad_header": "文件头格式错误：{line}",
+  "engine.parse.missing_sections": "缺少 HOLE CARDS 或 SUMMARY 部分",
+  "engine.parse.unrecognised_before_deal": "发牌前出现无法识别的行：{line}",
+  "engine.parse.unrecognised_preflop": "无法识别的翻前行：{line}",
+  "engine.parse.duplicate_player": "玩家名称重复",
+  "engine.parse.table_size": "{count} 位玩家（只使用 {size} 人桌的牌局）",
+  "engine.parse.button_empty": "庄位（座位 {seat}）没有人",
+  "engine.parse.player_not_seated": "玩家不在座位上：{player}",
+  "engine.parse.blinds_mismatch": "根据庄位推算的位置与下盲注的玩家不一致",
+  "engine.parse.bad_seat": "座位号超出范围：{seat}",
+  "engine.load.file_unreadable": "无法读取文件：{reason}",
+  "engine.range.bad_card": "无效的牌：{card}",
+  "engine.range.same_card": "同一张牌出现两次：{cards}",
+  "engine.range.bad_combo": "组合格式错误：{token}",
+  "engine.range.duplicate_combo": "组合重复：{cards}",
+  "engine.range.bad_weight": "权重错误：{token}",
+  "engine.range.not_a_float": "无法转换为数字：{value}",
+  "engine.range.invalid_utf8": "文件不是有效的 UTF-8",
+  "engine.matrix.missing_action": "{node} {cell} 缺 {action}，已当 0",
+  "engine.matrix.theory_over_one": "{node} {cell} 理论的跟注 + 加注 = {total} 超过 1，已按比例缩到 1"
+}
