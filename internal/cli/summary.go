@@ -6,6 +6,7 @@ import (
 	"strings"
 
 	"github.com/ken19960728ken/preflop-matrix-app/internal/engine"
+	"github.com/ken19960728ken/preflop-matrix-app/internal/numfmt"
 )
 
 // text 把引擎訊息翻成當前語言（命名空間 engine.*）。
@@ -66,12 +67,12 @@ func (t term) devRow(d engine.Deviation) string {
 	if d.Opponent != "" {
 		spot += " vs " + d.Opponent
 	}
-	theory := fmt.Sprintf("%.1f%%", d.Theory*100)
+	theory := numfmt.Percent(d.Theory)
 	if d.Clamped {
 		theory += t.t("cli.dev.clamped_tag")
 	}
 	cols := []string{spot, t.t("report.dev.node." + d.Node), t.devActionLabel(d),
-		fmt.Sprintf("%.1f%%", d.Obs*100), theory, signed(d.DiffPP), itoa(d.N), signed(d.Z)}
+		numfmt.Percent(d.Obs), theory, numfmt.Signed(d.DiffPP), itoa(d.N), numfmt.Signed(d.Z)}
 	return "  " + strings.Join(cols, " | ")
 }
 
@@ -98,16 +99,4 @@ func (t term) printDevGroup(title string, rows []engine.Deviation) {
 	for _, d := range rows {
 		fmt.Fprintln(t.stdout, t.devRow(d))
 	}
-}
-
-// signed 是帶正負號的一位小數；四捨五入成 0 時不帶號（同報告的 signed()）。
-func signed(v float64) string {
-	s := fmt.Sprintf("%.1f", v)
-	switch {
-	case s == "0.0" || s == "-0.0":
-		return "0.0"
-	case strings.HasPrefix(s, "-"):
-		return s
-	}
-	return "+" + s
 }
