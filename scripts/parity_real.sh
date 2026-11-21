@@ -2,6 +2,7 @@
 # 用真實範圍（唯讀）+ 手牌比對 Python 與 Go：--json 輸出零容差，另外逐行比 stdout 分類摘要。
 #   scripts/parity_real.sh <hands_dir> [ranges_dir]
 # ranges_dir 預設 ~/.config/preflop-matrix/ranges。輸出放在 ${TMPDIR}，結束時刪除；KEEP=1 則保留並印出路徑。
+# Go 端加 --top 0：Python 沒有偏離摘要，關掉它 stdout 才能逐行比對。
 # 不要把輸出 commit。
 set -eu
 
@@ -29,7 +30,7 @@ uv run --frozen --project "$PY_REPO" preflop-matrix --hands "$HANDS" --ranges "$
 
 echo "== Go =="
 go -C "$ROOT" run ./cmd/preflop-matrix --hands "$HANDS" --ranges "$RANGES" \
-	-o "$OUT/go.html" --json "$OUT/go.json" --lang zh-Hant >"$OUT/go.stdout.txt" 2>"$OUT/go.stderr.txt" ||
+	-o "$OUT/go.html" --json "$OUT/go.json" --lang zh-Hant --top 0 >"$OUT/go.stdout.txt" 2>"$OUT/go.stderr.txt" ||
 	{ echo "Go failed:" >&2; cat "$OUT/go.stderr.txt" >&2; exit 1; }
 
 echo "== compare json (float64 exact) =="

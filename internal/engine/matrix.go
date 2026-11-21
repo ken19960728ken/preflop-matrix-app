@@ -61,6 +61,17 @@ func (o *OMap[V]) Keys() []string { return append([]string(nil), o.keys...) }
 // Len is the number of keys.
 func (o *OMap[V]) Len() int { return len(o.keys) }
 
+// marshalPlain is json.Marshal without HTML escaping (< > & stay as they are, like Python's json.dumps).
+func marshalPlain(v any) ([]byte, error) {
+	var buf bytes.Buffer
+	enc := json.NewEncoder(&buf)
+	enc.SetEscapeHTML(false)
+	if err := enc.Encode(v); err != nil {
+		return nil, err
+	}
+	return bytes.TrimSuffix(buf.Bytes(), []byte("\n")), nil
+}
+
 // MarshalJSON writes the keys in insertion order.
 func (o OMap[V]) MarshalJSON() ([]byte, error) {
 	var buf bytes.Buffer
@@ -69,8 +80,8 @@ func (o OMap[V]) MarshalJSON() ([]byte, error) {
 		if i > 0 {
 			buf.WriteByte(',')
 		}
-		kb, _ := json.Marshal(k)
-		vb, err := json.Marshal(o.m[k])
+		kb, _ := marshalPlain(k)
+		vb, err := marshalPlain(o.m[k])
 		if err != nil {
 			return nil, err
 		}
@@ -184,8 +195,8 @@ func (d Data) MarshalWith(format func(Message) string) ([]byte, error) {
 		if buf.Len() > 1 {
 			buf.WriteByte(',')
 		}
-		kb, _ := json.Marshal(key)
-		vb, err := json.Marshal(v)
+		kb, _ := marshalPlain(key)
+		vb, err := marshalPlain(v)
 		buf.Write(kb)
 		buf.WriteByte(':')
 		buf.Write(vb)

@@ -296,7 +296,7 @@ func TestZhHantCLIMatchesPythonOriginal(t *testing.T) {
 		}
 	}
 	// 每個出自 Python 的 key 都必須有 golden；Go 版新增的 key 例外。
-	goOnly := regexp.MustCompile(`^cli\.(help\.(lang|top|check_ranges|init_ranges)|error\.(hands_required|lang_invalid|top_range|mode_conflict|unknown_flag|missing_value|init_failed|no_home)|ranges_ignored|check\..+|init\..+)$`)
+	goOnly := regexp.MustCompile(`^cli\.(help\.(lang|top|check_ranges|init_ranges|usage|options|help)|error\.(hands_required|lang_invalid|top_range|mode_conflict|unknown_flag|missing_value|init_failed|no_home|read_failed|not_a_dir|internal)|hint\.no_home_ranges|dev\.clamped_tag|ranges_ignored|check\..+|init\..+)$`)
 	for k := range catalogs[ZhHant] {
 		if strings.HasPrefix(k, "cli.") && !covered[k] && !goOnly.MatchString(k) {
 			t.Errorf("cli key %q has no Python golden entry and is not a Go-only key", k)

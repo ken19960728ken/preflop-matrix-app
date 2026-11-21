@@ -53,6 +53,15 @@ func mustLoad(fsys fs.FS) map[string]map[string]string {
 	return out
 }
 
+// Locales 回傳內嵌的 locales 根目錄（<lang>/<namespace>.json），供 report.LoadDict 使用。
+func Locales() fs.FS {
+	sub, err := fs.Sub(localesFS, "locales")
+	if err != nil {
+		panic(err)
+	}
+	return sub
+}
+
 // IsSupported 回報 lang 是否剛好是三個語言代碼之一（不做 Normalize）。
 func IsSupported(lang string) bool {
 	_, ok := catalogs[lang]

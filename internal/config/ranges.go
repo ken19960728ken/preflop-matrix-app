@@ -166,3 +166,6 @@ func ExpandUser(p string) (string, error) { return SystemEnv().ExpandUser(p) }
 
 // ResolveCLI 使用真實環境。
 func ResolveCLI(flag *string) (Source, error) { return SystemEnv().ResolveCLI(flag) }
+
+// CleanPath 照 Python Path 的規則（Windows 用 filepath.Clean）正規化路徑，只用於顯示；不解開 symlink，也不處理 ".."。
+func CleanPath(p string) string { return SystemEnv().clean(p) }
