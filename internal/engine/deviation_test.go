@@ -152,13 +152,50 @@ func TestRankedByEffectSizeNotZ(t *testing.T) {
 }
 
 func TestEqualHBreaksTieByZ(t *testing.T) {
+	// h(0.3 vs 0.5) == h(0.5 vs 0.3), but |z| differs: the smaller-n cell has the larger |z|, so neither the n layer
+	// nor the node/cell order can produce the expected result.
 	cells := map[string]OpenCell{
-		"UTG": {Th: &OpenTheory{0.3}, Pool: &OpenObs{0.5, 100}},
-		"HJ":  {Th: &OpenTheory{0.3}, Pool: &OpenObs{0.5, 400}},
+		"UTG": {Th: &OpenTheory{0.5}, Pool: &OpenObs{0.3, 100}},
+		"HJ":  {Th: &OpenTheory{0.3}, Pool: &OpenObs{0.5, 90}},
 	}
 	rows := mustDev(t, openData(cells), 5).Pool
-	if len(rows) != 2 || rows[0].Decider != "HJ" || rows[0].N != 400 {
+	if len(rows) != 2 || rows[0].Decider != "HJ" || rows[1].Decider != "UTG" {
 		t.Fatalf("got %+v", rows)
+	}
+	if hA, hB := cohenH(0.3, 0.5), cohenH(0.5, 0.3); hA != hB {
+		t.Fatalf("setup: h must be identical, got %v and %v", hA, hB)
+	}
+	if !(math.Abs(rows[0].Z) > math.Abs(rows[1].Z)) || rows[0].N >= rows[1].N {
+		t.Fatalf("setup: larger |z| must come with smaller n: %+v", rows)
+	}
+}
+
+func TestEffectSizeUsesUnclampedTheory(t *testing.T) {
+	// theta 0 (z denominator clamps to 0.005): h .6435 vs .5020 if the clamped value leaked into h.
+	// theta .3, obs .58: h .5722, between the two, so the order tells which theta h used.
+	cells := map[string]OpenCell{
+		"UTG": {Th: &OpenTheory{0}, Pool: &OpenObs{0.1, 100}},
+		"HJ":  {Th: &OpenTheory{0.3}, Pool: &OpenObs{0.58, 100}},
+	}
+	rows := mustDev(t, openData(cells), 5).Pool
+	if len(rows) != 2 || rows[0].Decider != "UTG" || rows[1].Decider != "HJ" {
+		t.Fatalf("got %+v", rows)
+	}
+	if !rows[0].Clamped {
+		t.Fatal("setup: the theta 0 cell must be clamped")
+	}
+}
+
+func TestZMinFloatingPointBoundary(t *testing.T) {
+	// theta .1, n 36, obs 9/36: z is 3 up to rounding.
+	d := openData(map[string]OpenCell{"UTG": {Th: &OpenTheory{0.1}, Pool: &OpenObs{9.0 / 36.0, 36}}})
+	rows := mustDev(t, d, 5).Pool
+	if len(rows) != 1 || !near(rows[0].Z, 3) {
+		t.Fatalf("got %+v", rows)
+	}
+	d = openData(map[string]OpenCell{"UTG": {Th: &OpenTheory{0.1}, Pool: &OpenObs{0.1 + 2.99*0.05, 36}}})
+	if rows := mustDev(t, d, 5).Pool; len(rows) != 0 {
+		t.Fatalf("z=2.99 listed: %+v", rows)
 	}
 }
 
@@ -216,12 +253,19 @@ func TestTheoryFoldClampedToZero(t *testing.T) {
 	}
 }
 
-func TestSameCellKeepsLargestAbsZ(t *testing.T) {
-	// theory f=.2 c=.4 r=.4; observed f=0 c=.5 r=.5: f deviates most.
-	d := pairData(NodeVs3bet, map[string]PairCell{"CO>BTN": {Th: pth(0.4, 0.4), Pool: pobs(0.5, 0.5, 100)}})
+func TestSameCellKeepsLargestH(t *testing.T) {
+	// theory f/c/r = .5/.49/.01, observed .2/.7/.1, n 100.
+	// f: h .6435, |z| 6; c: h .4316, |z| 4.2; r: h .4432, |z| 9.05. The largest h wins even though r has the largest |z|.
+	d := pairData(NodeVs3bet, map[string]PairCell{"CO>BTN": {Th: pth(0.49, 0.01), Pool: pobs(0.7, 0.1, 100)}})
 	r := mustDev(t, d, 20)
 	if len(r.Pool) != 1 || r.Pool[0].Action != DevFold {
 		t.Fatalf("got %+v", r.Pool)
+	}
+	if dv := r.Pool[0]; !near(dv.Z, -6) || !near(cohenH(dv.Obs, dv.Theory), 0.6435011087932844) {
+		t.Fatalf("got %+v", dv)
+	}
+	if h, z := cohenH(0.1, 0.01), 0.09/math.Sqrt(0.01*0.99/100); math.Abs(h-0.4432) > 1e-4 || z <= 6 {
+		t.Fatalf("setup: r should have the smaller h and larger |z|: h=%v z=%v", h, z)
 	}
 	// Raise is the strongest here.
 	d = pairData(NodeVs3bet, map[string]PairCell{"CO>BTN": {Th: pth(0.4, 0.1), Pool: pobs(0.4, 0.4, 100)}})
@@ -239,12 +283,13 @@ func TestOpenOnlyRaise(t *testing.T) {
 }
 
 func TestComparatorChain(t *testing.T) {
-	base := candidate{Deviation: Deviation{Z: 2, DiffPP: 5, N: 100}, node: 1, cell: 1, action: 1}
+	base := candidate{Deviation: Deviation{Z: 2, DiffPP: 5, N: 100}, h: 0.5, node: 1, cell: 1, action: 1}
 	mod := func(f func(c *candidate)) candidate { c := base; f(&c); return c }
 	for _, tc := range []struct {
 		name string
 		a, b candidate
 	}{
+		{"h beats a larger |z|", mod(func(c *candidate) { c.h = 0.6; c.Z = 1 }), mod(func(c *candidate) { c.Z = 9 })},
 		{"abs z", mod(func(c *candidate) { c.Z = -3 }), base},
 		{"abs diff", mod(func(c *candidate) { c.DiffPP = -6 }), base},
 		{"n", mod(func(c *candidate) { c.N = 101 }), base},
@@ -274,7 +319,7 @@ func TestEndToEndTieOrder(t *testing.T) {
 	for _, dv := range mustDev(t, d, 20).Pool {
 		got = append(got, dv.AnchorID)
 	}
-	// Strongest first (f in the pair cells), then nodes in matrix order, cells in Pairs() order; open last (weaker z).
+	// Strongest first (f in the pair cells), then nodes in matrix order, cells in Pairs() order; open last (its h is smaller).
 	want := []string{
 		"cell-vs_open-CO-BB-pool-f", "cell-vs_3bet-CO-BTN-pool-f", "cell-vs_3bet-CO-BB-pool-f",
 		"cell-open-UTG-pool", "cell-open-HJ-pool",

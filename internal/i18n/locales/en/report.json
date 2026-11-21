@@ -59,7 +59,7 @@
   "report.notice.noRanges": "No theory ranges selected: the theory columns show –",
   "report.notice.incomplete": "Theory ranges are incomplete: {nodes} nodes missing, {actions} action files missing (counted as 0)",
   "report.dev.title": "Deviation summary",
-  "report.dev.formula": "Spots with n ≥ 30 and |z| ≥ 3, where z = (actual − theory) ÷ √(theory × (1 − theory) ÷ n) and the theory value in the denominator is clamped to 0.5%–99.5%, sorted by effect size (Cohen's h) descending. Only the action that deviates most is listed per spot; click a row to jump to its cell in the report.",
+  "report.dev.formula": "Spots with n ≥ 30 and |z| ≥ 3, where z = (actual − theory) ÷ √(theory × (1 − theory) ÷ n); the theory value inside the square root is clamped to 0.5%–99.5%. Sorted by effect size h = |2·asin√actual − 2·asin√theory| (Cohen's h; the theory value is not clamped), largest first. Only the action with the largest effect size is listed per spot; click a row to jump to its cell in the report.",
   "report.dev.pool": "Player pool",
   "report.dev.me": "Me ({hero})",
   "report.dev.col.spot": "Matchup",
