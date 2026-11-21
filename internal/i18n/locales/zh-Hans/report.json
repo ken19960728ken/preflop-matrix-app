@@ -15,7 +15,7 @@
   "report.sec.vs4bet": "3bet 后面对 4bet",
   "report.sec.vs4bet.cap": "行＝开池并 4bet 的人，列＝3bet 后要回应的人。斜线＝样本 <100。",
   "report.sec.vs5bet": "4bet 后面对 5bet",
-  "report.sec.vs5bet.cap": "R&C 没有这一层的理论范围，所以改为“我｜玩家池｜我 − 玩家池”。行＝4bet 后要回应的开池者，列＝5bet 的人。斜线＝样本 <20。",
+  "report.sec.vs5bet.cap": "这一层没有理论范围，所以改为“我｜玩家池｜我 − 玩家池”。行＝4bet 后要回应的开池者，列＝5bet 的人。斜线＝样本 <20。",
   "report.sec.vs5bet.capTheory": "行＝4bet 后要回应的开池者，列＝5bet 的人。斜线＝样本 <20。",
   "report.sec.vs5bet.capMixed": "有理论的格子用上面三行；没有理论的格子改列在下方“我｜玩家池｜我 − 玩家池”。行＝4bet 后要回应的开池者，列＝5bet 的人。斜线＝样本 <20。",
   "report.part2.eyebrow": "第二部分",

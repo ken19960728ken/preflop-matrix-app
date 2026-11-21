@@ -12,7 +12,7 @@ type TableFormat struct {
 	Positions  []string // in preflop action order: the opener always comes before the players who answer it
 	FromButton []string // dealing order, starting with the seat left of the button
 	// FiveBetAllInOnly are the cells (earlier, later) whose 5bet has only an all in file in the template. In the
-	// user's R&C reference solution the 5bet of these vs_4bet cells is always all in (there is no smaller size),
+	// reference range set this template targets, the 5bet of these vs_4bet cells is always all in (there is no smaller size),
 	// so no plain 5bet file is offered; completeness still accepts either file.
 	FiveBetAllInOnly []Pair
 }

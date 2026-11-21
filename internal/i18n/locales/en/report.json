@@ -15,7 +15,7 @@
   "report.sec.vs4bet": "Facing a 4bet after 3betting",
   "report.sec.vs4bet.cap": "Rows = the opener who 4bets, columns = the 3bettor who has to respond. Hatched = sample <100.",
   "report.sec.vs5bet": "Facing a 5bet after 4betting",
-  "report.sec.vs5bet.cap": "R&C has no theory range for this spot, so the rows are Me | Pool | Me − Pool. Rows = the opener who has to respond to the 4bet, columns = the 5bettor. Hatched = sample <20.",
+  "report.sec.vs5bet.cap": "There is no theory range for this spot, so the rows are Me | Pool | Me − Pool. Rows = the opener who has to respond to the 4bet, columns = the 5bettor. Hatched = sample <20.",
   "report.sec.vs5bet.capTheory": "Rows = the opener who has to respond to the 4bet, columns = the 5bettor. Hatched = sample <20.",
   "report.sec.vs5bet.capMixed": "Spots with theory use the three rows above; spots without theory are listed below as Me | Pool | Me − Pool. Rows = the opener who has to respond to the 4bet, columns = the 5bettor. Hatched = sample <20.",
   "report.part2.eyebrow": "Part 2",
