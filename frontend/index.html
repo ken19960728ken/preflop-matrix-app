@@ -1,11 +1,146 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>PreflopMatrix</title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="color-scheme" content="light dark"/>
+  <title>PreflopMatrix</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+SC:wght@700&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif:wght@700&family=Noto+Sans:wght@400;500;700&family=IBM+Plex+Mono:wght@500&display=swap"/>
 </head>
 <body>
+<div class="boot" id="boot" role="status"><span class="spin" aria-hidden="true"></span><span class="sr-only">載入中… 加载中… Loading…</span></div>
+<div class="app" id="app">
+  <header class="top">
+    <button class="icon-btn" id="side-toggle" type="button" aria-controls="side" aria-expanded="true">
+      <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><rect x="2.5" y="3.5" width="15" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M8 3.5v13" stroke="currentColor" stroke-width="1.6"/></svg>
+    </button>
+    <h1 class="brand"><span class="brand-mark" aria-hidden="true"></span><span data-i="ui.app.title">PreflopMatrix</span></h1>
+    <span class="ver" id="ver"></span>
+    <div class="langsw" role="group" data-i-label="ui.lang.label" id="langsw">
+      <button type="button" data-lang="zh-Hant" lang="zh-Hant" aria-pressed="false">繁中</button>
+      <button type="button" data-lang="zh-Hans" lang="zh-Hans" aria-pressed="false">简中</button>
+      <button type="button" data-lang="en" lang="en" aria-pressed="false">English</button>
+    </div>
+  </header>
+
+  <div class="shell">
+    <aside class="side" id="side" aria-labelledby="side-h">
+      <p class="inline-err warn" id="settings-warn" role="alert" hidden></p>
+      <h2 class="eyebrow" id="side-h" data-i="ui.controls.title"></h2>
+
+      <div class="field">
+        <div class="lbl" id="hands-l" data-i="ui.hands.label"></div>
+        <div class="path-row">
+          <span class="path" id="hands-path" aria-labelledby="hands-l"></span>
+          <button type="button" class="btn" id="hands-pick" data-i="ui.pick"></button>
+        </div>
+      </div>
+
+      <div class="field">
+        <div class="lbl"><span id="ranges-l" data-i="ui.ranges.label"></span> <span class="tag" data-i="ui.ranges.optional"></span></div>
+        <div class="path-row">
+          <span class="path" id="ranges-path" aria-labelledby="ranges-l"></span>
+          <button type="button" class="btn" id="ranges-pick" data-i="ui.pick"></button>
+        </div>
+        <div class="status-line" id="ranges-status" hidden></div>
+        <div class="row-btns" id="ranges-extra" hidden>
+          <button type="button" class="btn ghost" id="ranges-clear" data-i="ui.ranges.clear"></button>
+        </div>
+        <p class="hint" data-i="ui.ranges.hint"></p>
+      </div>
+
+      <div class="field">
+        <label class="lbl" for="hero" data-i="ui.hero.label"></label>
+        <input class="input" id="hero" type="text" autocomplete="off" spellcheck="false" maxlength="64" aria-describedby="hero-h"/>
+        <p class="hint" id="hero-h" data-i="ui.hero.hint"></p>
+        <p class="inline-err" id="hero-err" role="alert" hidden></p>
+      </div>
+
+      <div class="gen">
+        <button type="button" class="btn primary" id="generate" data-i="ui.generate.run"></button>
+        <div class="busy" id="busy" hidden><span class="spin" aria-hidden="true"></span><span id="busy-t" data-i="ui.generate.busy"></span><span id="busy-sec" aria-hidden="true"></span></div>
+        <p class="sr-only" id="gen-live" role="status"></p>
+        <p class="inline-err" id="gen-err" role="alert" hidden></p>
+      </div>
+
+      <section class="check" id="check" aria-labelledby="check-h">
+        <button type="button" class="check-head" id="check-toggle" aria-expanded="false" aria-controls="check-body">
+          <span class="chev" aria-hidden="true"></span>
+          <span class="check-title" id="check-h" data-i="ui.check.title"></span>
+          <span class="badge" id="check-badge" hidden></span>
+        </button>
+        <div class="check-sum" id="check-sum"></div>
+        <div class="check-body" id="check-body" hidden>
+          <div id="check-sections"></div>
+        </div>
+        <div class="tpl">
+          <div class="row-btns">
+            <button type="button" class="btn" id="check-recheck" data-i="ui.check.recheck" disabled></button>
+            <button type="button" class="btn" id="tpl-btn" data-i="ui.template.button"></button>
+          </div>
+          <p class="busy" id="tpl-status" role="status" hidden><span class="spin" aria-hidden="true"></span><span data-i="ui.template.running"></span></p>
+          <p class="hint" data-i="ui.template.hint"></p>
+          <p class="inline-err" id="tpl-err" role="alert" hidden></p>
+          <div class="tpl-res" id="tpl-res" role="status" hidden></div>
+        </div>
+      </section>
+    </aside>
+
+    <main class="main" id="main">
+      <div class="toolbar" role="toolbar" data-i-label="ui.report.title">
+        <button type="button" class="btn" id="act-save" data-i="ui.action.save" disabled></button>
+        <button type="button" class="btn" id="act-print" data-i="ui.action.print" disabled></button>
+        <button type="button" class="btn" id="act-browser" data-i="ui.action.browser" disabled></button>
+        <span class="act-msg" id="act-msg" role="status"></span>
+        <span class="act-err inline-err" id="act-err" role="alert" hidden></span>
+      </div>
+
+      <section class="msgs" id="msgs" hidden>
+        <ul class="summary" id="summary" aria-label=""></ul>
+        <div class="notice" id="notice" hidden></div>
+        <div class="warns" id="warns" role="region" aria-labelledby="warns-h" hidden>
+          <div class="warn-head"><h2 class="warn-h" id="warns-h"></h2><button type="button" class="btn ghost" id="warns-toggle" aria-expanded="false" aria-controls="warns-list" hidden></button></div>
+          <ul id="warns-list" tabindex="0" aria-labelledby="warns-h"></ul>
+        </div>
+      </section>
+
+      <div class="stage" id="stage">
+        <iframe id="frame" sandbox="allow-scripts" data-i-title="ui.report.title" hidden></iframe>
+        <div class="loading" id="frame-loading" hidden><span class="spin" aria-hidden="true"></span><span data-i="ui.report.loading"></span></div>
+        <div class="empty" id="empty">
+          <h2 data-i="ui.empty.title"></h2>
+          <ol>
+            <li data-i="ui.empty.step1"></li>
+            <li data-i="ui.empty.step2"></li>
+            <li data-i="ui.empty.step3"></li>
+          </ol>
+        </div>
+      </div>
+
+      <section class="dev" id="dev" aria-labelledby="dev-h" hidden>
+        <div class="dev-head">
+          <h2 class="dev-h"><button type="button" class="dev-toggle" id="dev-toggle" aria-expanded="true" aria-controls="dev-body">
+            <span class="chev" aria-hidden="true"></span><span id="dev-h" data-i="ui.dev.title"></span>
+          </button></h2>
+          <div class="tabs" role="tablist" id="dev-tabs">
+            <button type="button" role="tab" id="tab-pool" aria-controls="dev-panel" aria-selected="true" data-which="pool" data-i="ui.dev.pool"></button>
+            <button type="button" role="tab" id="tab-me" aria-controls="dev-panel" aria-selected="false" tabindex="-1" data-which="me" data-i="ui.dev.me"></button>
+          </div>
+          <label class="topn"><span data-i="ui.dev.topN"></span>
+            <input class="input num" id="topn" type="number" min="0" max="20" step="1" inputmode="numeric" aria-describedby="topn-h"/>
+            <span class="range-hint" aria-hidden="true">0–20</span>
+          </label>
+          <span class="sr-only" id="topn-h" data-i="ui.dev.topNHint"></span>
+          <span class="hint dev-hint" data-i="ui.dev.hint"></span>
+        </div>
+        <div class="dev-body" id="dev-body">
+          <p class="inline-err" id="topn-err" role="alert" hidden></p>
+          <div class="dev-scroll" id="dev-panel" role="tabpanel" tabindex="-1"></div>
+        </div>
+      </section>
+    </main>
+  </div>
+</div>
 <script type="module" src="/src/main.ts"></script>
 </body>
 </html>

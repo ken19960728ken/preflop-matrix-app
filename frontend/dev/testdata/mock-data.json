@@ -1,0 +1,23 @@
+{
+  "rows": [
+    ["BTN vs CO", 1, "Fold", "61.3%", "38.0%", "+23.3", "212", "+6.8", false],
+    ["SB vs BTN", 0, "Raise", "48.1%", "31.5%", "+16.6", "480", "+7.8", false],
+    ["BB vs SB", 1, "Call", "22.0%", "35.9%", "−13.9", "150", "−3.9", false],
+    ["CO vs UTG", 2, "Raise", "9.4%", "0.4%", "+9.0", "96", "+4.1", true],
+    ["BTN vs HJ", 1, "Fold", "70.2%", "58.0%", "+12.2", "301", "+4.2", false],
+    ["BB vs CO", 0, "Call", "30.1%", "41.7%", "−11.6", "390", "−4.6", false],
+    ["HJ vs UTG", 1, "Raise", "12.8%", "5.2%", "+7.6", "88", "+3.2", false],
+    ["SB vs CO", 2, "Fold", "52.0%", "71.4%", "−19.4", "64", "−3.4", false]
+  ],
+  "missingNodes": [
+    { "node": "vs_3bet", "nodeIdx": 1, "cells": [
+      { "cell": "CO vs BTN", "base": true, "actions": ["call", "raise"] },
+      { "cell": "HJ vs CO", "base": false, "actions": ["raise"] } ] },
+    { "node": "vs_4bet", "nodeIdx": 2, "cells": [{ "cell": "BTN vs SB", "base": false, "actions": ["call"] }] }
+  ],
+  "missingActions": [{ "text": "SB_vs_BTN_3bet", "names": ["SB_vs_BTN_3bet_call.txt", "SB_vs_BTN_3bet_raise.txt"] }],
+  "unfilledMissing": ["BB_vs_UTG_call.txt"],
+  "unfilledRedundant": ["BB_vs_UTG_fold.txt"],
+  "unreadableName": "HJ_open.txt",
+  "dupOf": "BTN_vs_CO.txt"
+}
