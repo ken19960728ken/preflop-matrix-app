@@ -82,7 +82,7 @@ func TestJSONTopLevelOrderAndShape(t *testing.T) { // P8
 		t.Errorf("order %v", got)
 	}
 	if !strings.Contains(string(b), `"warnings":[]`) || !strings.Contains(string(b), `"open":{"UTG":{"th":null,"me":null,"pool":null}`) ||
-		!strings.Contains(string(b), `"absolute":{"vs_3bet":{"UTG\u003eHJ":{}`) || !strings.Contains(string(b), `"date_from":""`) {
+		!strings.Contains(string(b), `"absolute":{"vs_3bet":{"UTG>HJ":{}`) || !strings.Contains(string(b), `"date_from":""`) {
 		t.Errorf("shape: %s", b)
 	}
 }
@@ -517,9 +517,17 @@ func TestMarshalWithGivesThePythonWarningShapeForValueAndPointer(t *testing.T) {
 	}
 }
 
-func TestHeroNameIsEscapedInJSON(t *testing.T) {
-	b, _ := build(t, rfs(t, nil), nil, "<b>&").MarshalWith(pyText)
-	if strings.Contains(string(b), "<b>") {
-		t.Errorf("raw angle brackets in %s", b)
+// MarshalWith writes < > & as they are (like Python's json.dumps); the report escapes them when it injects the DATA.
+func TestHTMLCharactersAreNotEscapedInJSON(t *testing.T) {
+	b, err := build(t, rfs(t, nil), nil, "<b>&").MarshalWith(pyText)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if !strings.Contains(string(b), `"hero":"<b>&"`) || strings.Contains(string(b), `\u003`) {
+		t.Errorf("escaped: %s", b)
+	}
+	var v map[string]any
+	if err := json.Unmarshal(b, &v); err != nil || v["meta"].(map[string]any)["hero"] != "<b>&" {
+		t.Errorf("round trip: %v", err)
 	}
 }
